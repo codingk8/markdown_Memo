@@ -13,9 +13,9 @@ how-to-markdown
 # What's inside
 
 How To Markdown                                                            
-Markdown is awesome!                                                       
-────────────────────
-  
+Markdown is awesome!
+
+---
    » HELLO WORLD                                                              
    » HEADINGS                                                                 
    » EMPHASIS                                                                 
@@ -27,15 +27,15 @@ Markdown is awesome!
    » TABLES                                                                   
    » HORIZONTAL RULES                                                         
    » HTML                                                                     
-   » GFM                                                                      
-────────────────────
-  
+   » GFM                                                      
+
+---
    HELP                                                                       
    CHOOSE LANGUAGE                                                            
    CREDITS                                                                    
    CHECK FOR UPDATE                                                           
    EXIT      
-   
+
 # Hello World
 Welcome to how-to-markdown!  
    
@@ -43,18 +43,12 @@ Welcome to how-to-markdown!
 
 First things first, let's consider what Markdown actually is.  
 
-Markdown - is a lightweight, easy-to-read, easy-to-write plain text format  
-for styling all forms of writing around the Internet. Markdown helps to  
-control the display of the document: formatting words as bold or italic,  
-adding images, creating lists and so on.  
+**Markdown - is a lightweight, easy-to-read, easy-to-write plain text format for styling all forms of writing around the Internet. Markdown helps to control the display of the document: formatting words as bold or italic, adding images, creating lists and so on.**
 
-Markdown was made by [John Gruber](http://daringfireball.net/) in 2004,  
-with significant collaboration from [Aaron  
+Markdown was made by [John Gruber](http://daringfireball.net/) in 2004, with significant collaboration from [Aaron  
 Swartz](http://www.aaronsw.com/).  
 
-Markdown can be written in a basic text editor. It's an easy way to write  
-text that easily translates into HTML. When you write in Markdown, you  
-have to save the document with the .md or .markdown extensions.  
+Markdown can be written in a basic text editor. It's an easy way to write text that easily translates into HTML. When you write in Markdown, you have to save the document with the .md or .markdown extensions.  
 
 We can use Markdown almost everywhere:  
 
@@ -68,50 +62,37 @@ We can use Markdown almost everywhere:
 » **Documentations for many open source project** are written in Markdown.        
 » how-to-markdown also uses Markdown for formatting exercises.                
 
-So, knowledge of Markdown is an important skill for modern developers.  
-That's why you have to learn it.  
+So, knowledge of Markdown is an important skill for modern developers. That's why you have to learn it.  
 
 ### How to get Markdown?  
 
-There is no clearly defined Markdown standard. Markdown is just common  
-rules on how to write readable and formatted text.  
+**There is no clearly defined Markdown standard. Markdown is just common rules on how to write readable and formatted text.** 
 
-While Markdown is a minimal markup language and is easily read and edited  
-with a normal text editor, there's no need in specially designed editors  
-for writing files in Markdown. However, there are a few editors that  
-preview the files with styles.  
-
-Implementations of Markdown are available for over a dozen programming  
-languages (JavaScript, Ruby, Python, PHP, Perl, etc). In addition, many  
-platforms and frameworks support Markdown out of the box. For example,  
-Markdown plugins exist for every major blogging platform.  
+While Markdown is a minimal markup language and is easily read and edited with a normal text editor, there's no need in specially designed editors for writing files in Markdown. However, there are a few editors that preview the files with styles.  
+Implementations of Markdown are available for over a dozen programming languages (JavaScript, Ruby, Python, PHP, Perl, etc). In addition, many platforms and frameworks support Markdown out of the box. For example, Markdown plugins exist for every major blogging platform.  
 
 ### How to use this workshopper?  
 
-It's easy to use this workshopper. In most cases, it's enough to use these  
-three commands for interacting with this workshopper:  
+It's easy to use this workshopper. In most cases, it's enough to use these three commands for interacting with this workshopper:  
 
-» how-to-markdown run file.md will serve a local server at                                                                            
-http://localhost:3000/ with a preview of file.md.                           
+» how-to-markdown run file.md will serve a local server at http://localhost:3000/ with a preview of file.md.                   
 » how-to-markdown verify file.md will verify your file.                       
 » how-to-markdown help shows a help message.                                  
 
 ## THE CHALLENGE  
 
-You first challenge is pretty simple. Just create a new file (for example  
-using touch) and add a single line:  
+You first challenge is pretty simple. Just create a new file (for example using touch) and add a single line:  
 
 Hello, world!  
 
-If you already did this, run how-to-markdown verify to verify your  
-solution or how-to-markdown run to run your file in the browser.  
+If you already did this, run how-to-markdown verify to verify your solution or how-to-markdown run to run your file in the browser.  
 
 
 ## Here's the **official solution** in case you want to compare notes:
 
 Hello, world!
 
-        ```plain Hello, world!```
+```plain Hello, world!```
 
 ## You did it!
 
@@ -119,8 +100,8 @@ Congratulations! You wrote your first paragraph in Markdown! Quite simple, isn't
 
 If you are already familiar with HTML, you may guess that your solution will be rendered in such markup:
 
-        ```html```
-        <p>Hello, world!</p>
+```html```
+<p>Hello, world!</p>
 
 Paragraphs are separated by a blank line, so if you need to create two or more paragraphs, you have to write something like this:
 
@@ -131,7 +112,6 @@ Paragraphs are separated by a blank line, so if you need to create two or more p
 In the next exercise we will take a look at headings in Markdown.
 
 You have 11 challenges left.
-
 
 # HEADINGS (Exercise 2 of 12)  
 
