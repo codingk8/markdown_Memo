@@ -152,7 +152,7 @@ You have 11 challenges left.
      ###### Heading 6  
    
   As in HTML, there are 6 levels of headings. These headings will be  
-  transformed into \<h1>-<h6>\ tags accordingly.  
+  transformed into \<h1>-\<h6> tags accordingly.  
    
   There are aliases for first and second-level headings. You will get a  
   first-level heading if you type three = signs on the following line. You  
