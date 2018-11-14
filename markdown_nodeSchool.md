@@ -15,6 +15,7 @@ how-to-markdown
  How To Markdown                                                            
    Markdown is awesome!                                                       
    ────────────────────
+  
    » HELLO WORLD                                                              
    » HEADINGS                                                                 
    » EMPHASIS                                                                 
@@ -28,6 +29,7 @@ how-to-markdown
    » HTML                                                                     
    » GFM                                                                      
    ────────────────────
+  
    HELP                                                                       
    CHOOSE LANGUAGE                                                            
    CREDITS                                                                    
