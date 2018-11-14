@@ -575,7 +575,8 @@ separate a few quotes just add an empty line between them.
 You are able to put Markdown into a blockquote, therefore this will work  
 as well:  
    
-     > **Markdown** is a _lightweight markup language_ with plain text formatting syntax designed so that it can be converted to **HTML** and many other formats.  
+     > **Markdown** is a _lightweight markup language_ with plain text formatting syntax designed so 
+     > that it can be converted to **HTML** and many other formats.  
      > - from [Wikipedia](https://en.wikipedia.org/wiki/Markdown)  
    
 ## THE CHALLENGE  
@@ -608,3 +609,397 @@ GitHub for replies to specific comments.
 In the next exercise we will take a look at code in Markdown.
 
 You have 5 challenges left.
+
+# CODE (Exercise 8 of 12)  
+
+Code is a part of Markdown spec. There are two ways to add code in your  
+document: inline code and blocks of code.  
+
+### Inline code  
+
+To mark a part of text as code, just wrap it in back-ticks (  \` ).
+Here is an example:  
+   
+     Inline code transforms into `<code>` html-tag.  
+   
+  |> Inline code transforms into <code> html-tag.  
+   
+ ### Blocks of code  
+   
+Blocks of code are either fenced by lines with three back-ticks (   \`\`\`),  
+or are indented with four spaces.  
+
+Syntax highlighting isn't part Markdown's spec. However, many renderers  
+support syntax highlighting. Which languages are supported and how those  
+language names should be written will vary from renderer to renderer.  
+   
+     ```js  
+     console.log('This is JavaScript syntax highlighting!');  
+     ```  
+       
+     ```  
+     No language indicated, so no syntax highlighting.  
+     ```  
+       
+         Block of code with indentation.  
+   
+These two blocks will be rendered like so:  
+   
+     console.log('This is JavaScript syntax highlighting!');  
+   
+     No language indicated, so no syntax highlighting.  
+   
+     Block of code with indentation.  
+   
+We recommend to use the fenced code blocks instead of blocks with  
+indentation, because they support syntax highlighting.  
+   
+## THE CHALLENGE  
+
+Add  Code as the first-level heading in your file.  
+
+Add this JavaScript code with relevant syntax highlighting:  
+
+  const add = (a, b) => a + b;  
+
+Don't forget to verify your solution.  
+   
+##  Here's the official solution in case you want to compare notes:
+
+    # Code
+        const add = (a, b) => a + b;
+
+
+    # Code
+    ```js
+    const add = (a, b) => a + b;
+     ```
+
+## Awesome!
+
+Now you can embed code snippets into Markdown documents. That is yet
+another thing that is used almost everywhere.
+
+In the next exercise we will take a look at tables in Markdown.
+
+You have 4 challenges left.
+
+# TABLES (Exercise 9 of 12)  
+   
+Tables are not a part of Markdown spec, but a lot of parsers support them.  
+Especially **GFM which are used on GitHub**.  
+
+The creation of tables in Markdown looks exactly like drawing using dashes  
+(-) and pipes (|). Also, you may use colons to align columns. For example:  
+
+     | Head         | of       | Table         |  
+     | ------------ |:--------:| ------------ :|  
+     | left-aligned | centered | right-aligned |  
+     | left-aligned | centered | right-aligned |  
+   
+The table above will be rendered like this:  
+   
+ Head            of    Table  
+ ------------ -------- -------------  
+ left-aligned centered right-aligned  
+ left-aligned centered right-aligned  
+   
+There are a few important things here:  
+
+ » There must be at least 3 dashes separating each header cell. Colons to                                                                            
+   align columns count as dashes.                                              
+ » The outer pipes (|) are optional.                                           
+ » You can use inline Markdown in cells.                                       
+
+That means you can do something like this:  
+   
+     Markdown | Less | Pretty  
+     --- | --- | ---  
+     *Still* | `renders` | **nicely**  
+   
+It doesn't looks so nice, but it works as expected:  
+   
+ Markdown Less    Pretty  
+ -------- ------- ------  
+ Still    renders nicely  
+   
+## THE CHALLENGE  
+
+Add a first-level heading that contains the name of this exercise.  
+
+Reproduce this table:  
+   
+ Year World population  
+ ---- ----------------  
+ 1960 3 Billion  
+ 1980 4 Billion  
+ 2000 6 Billion  
+   
+The Year column should be centered.  
+   
+## Ma solution ##
+
+        # Tables
+        |Year|World population|
+        |:--:|---------|
+        |1960|3 Billion|
+        |1980|4 Billion|
+        |2000|6 Billion|
+
+## Here's the official solution in case you want to compare notes:
+
+# Tables
+Year World population
+---- ----------------
+1960 3 Billion
+1980 4 Billion
+2000 6 Billion
+
+```plain
+# Tables
+Year World population
+---- ----------------
+1960 3 Billion
+1980 4 Billion
+2000 6 Billion
+```
+
+## Very well!
+
+You did a cool table of the World population. Now do you realize how
+awesome tables in Markdown are? They are easy and readable, even in plain
+files.
+
+In the next exercise we will take a look at horizontal rules in Markdown.
+
+You have 3 challenges left.
+
+# HORIZONTAL RULES (Exercise 10 of 12)  
+   
+Sometimes we have to divide some information. In HTML we use the <hr> tag,  
+which means horizontal rule.  
+
+There's nothing hard to make a horizontal rule in Markdown. Just type  
+three or more dashes (-), asterisks (*) or underscores (_):  
+
+     Dashes  
+       
+     ---  
+       
+     Asterisks  
+       
+     ***  
+       
+     Underscores  
+       
+     ___  
+   
+And it will turn into:  
+
+Dashes  
+
+─────────────────────────────────────────────────────────────────────────────  
+Asterisks  
+
+─────────────────────────────────────────────────────────────────────────────  
+Underscores  
+
+─────────────────────────────────────────────────────────────────────────────  
+As you may remember from the Headings exercise, three dashes on the next  
+line makes a second-level heading. To avoid this behavior, just add an  
+empty line between text and these dashes.  
+
+## THE CHALLENGE  
+
+Please add a Horizontal rules heading and add a horizontal rule right  
+after this heading.  
+
+That's it. Just verify your solution.  
+
+## Ma solution
+
+        # Horizontal rules
+        
+        ---
+
+## Here's the official solution in case you want to compare notes:
+
+# Horizontal rules
+
+─────────────────────────────────────────────────────────────────────────────
+
+```plain
+# Horizontal rules
+─────────────────────────────────────────────────────────────────────────────
+```
+
+## Nice job!
+
+It was a pretty easy exercise, but sometimes horizontal rules are very
+handy, so you should know how to create them.
+
+In the next exercise we will take a look at inline HTML in Markdown.
+
+You have 2 challenges left.
+
+# HTML (Exercise 11 of 12)  
+   
+If you want to style something more than is allowed in Markdown, you can  
+use raw HTML in your Markdown and it'll work pretty well.  
+
+   <p align="center">Centered text works well!</p>  
+
+And you will get a centered paragraph.  
+
+Sometimes it's helpful, but be careful! Markdown inside HTML won't be  
+rendered! That means if you write something like this:  
+   
+     <span>Markdown **won't** work here!</span>  
+   
+It won't work.  
+
+## THE CHALLENGE  
+
+Add HTML as the first-level heading.  
+
+Below, use HTML for centering this text:  
+   
+     HTML in Markdown  
+   
+Verify your solution.  
+
+## Ma solution
+
+        # HTML
+        <p align="center">HTML in Markdown</p>
+        
+## Here's the official solution in case you want to compare notes:
+
+        # HTML
+        <p align="center">HTML in Markdown</p>
+
+        ```plain
+        # HTML
+        <p align="center">HTML in Markdown</p>
+        ```
+
+## Works!
+
+You can use HTML for creating anything you want: definition lists,
+embedding posts from social networks, embedding videos from YouTube, etc.
+Just type HTML tags right in your Markdown document and see how it works.
+
+In the next exercise we will take a look at GFM in Markdown.
+
+You have one challenge left.
+
+# GFM (Exercise 12 of 12)  
+
+If you are a developer, then you have heard about GitHub. GitHub is an  
+important part of the community. Why are we talking about it? That's  
+because GitHub is a big customer of Markdown. Even more, GitHub uses its  
+own version of the Markdown syntax that provides an additional set of  
+useful features. This version of markdown is called GitHub Flavored  
+Markdown or simply GFM.  
+
+From previous exercises you are already familiar with syntax highlighting  
+in blocks of code and tables. However, there are some other features which  
+may be helpful for you.  
+
+### Task lists  
+
+To create a task list you should create an ordered or unordered list. Then  
+you can use squared brackets that will be turned into checkboxes. An x  
+between them makes the item marked as completed. Example:  
+   
+     - [x] [links](#), **formatting**, and <del>tags</del> supported  
+     - [x] list syntax required (any unordered or ordered list supported)  
+     - [x] this is a complete item  
+     - [ ] this is an incomplete item  
+   
+   » [x] [links](#), formatting, and <del>tags</del> supported                   
+   » [x] list syntax required (any unordered or ordered list supported)          
+   » [x] this is a complete item                                                 
+   » [ ] this is an incomplete item                                              
+   
+### SHA references  
+
+Any reference to a commit’s SHA-1 hash will be automatically converted  
+into a link to that commit on GitHub:  
+
+   4ad0c921206dec4d1518f4aeead932e7617f934f  
+   denysdovhan/how-to-markdowkn@4ad0c921206dec4d1518f4aeead932e7617f934f  
+
+### Issue and Pull request references  
+
+Any number that refers to an Issue or Pull Request will be automatically  
+converted into a link:  
+   
+     #1  
+     denysdovhan/how-to-markdowkn#1  
+   
+### Username @mentions  
+
+Typing an @ symbol, followed by a username, will notify that person to  
+come and view the comment. This is called a @mention, because you’re  
+mentioning the individual. You can also mention @teams within an  
+organization.  
+   
+### Emoji  
+
+It's a funny part, but it's still important. GFM also supports emoji!  
+
+✨ 🐫 💥  
+
+To see a list of every emoji that is supported, check out the [Emoji Cheat  
+Sheet](http://www.emoji-cheat-sheet.com/).  
+   
+## THE CHALLENGE  
+
+Add a first-level heading that contains GFM.  
+
+Please create a to-do list with these tasks:  
+
+» hey                                                                         
+» ho                                                                          
+» let's go                                                                    
+
+Then mark item ho as completed.  
+
+Verify your solution.  
+
+## Ma solution
+        # GFM
+        - [ ] hey
+        - [x] ho
+        - [ ] let's go
+
+## Here's the official solution in case you want to compare notes:
+
+        # GFM
+          » [ ] hey                                                                   
+          » [x] ho                                                                    
+          » [ ] let's go                                                              
+
+        ```plain
+        # GFM
+        » [ ] hey                                                                   
+        » [x] ho                                                                    
+        » [ ] let's go                                                              
+        ```
+
+## Congratulations!
+
+You finished this workshopper! Now you are familiar with Markdown and know
+how to write and read Markdown documents.
+
+What should you do next? Just write some Markdown. Rewrite the README-file
+of your project in Markdown, start to write posts in your blog in
+Markdown, whatever.
+
+Anyway, knowledge of Markdown is a very nice skill that will be useful.
+
+Thank you for using this workshopper. Check out other workshoppers on
+<http://nodeschool.io>.
+
+You've finished all the challenges! Hooray!
