@@ -106,18 +106,14 @@ how-to-markdown
   If you already did this, run how-to-markdown verify to verify your  
   solution or how-to-markdown run to run your file in the browser.  
    
- ──────────────────────────────────────────
    
-  Here's the **official solution** in case you want to compare notes:
+## Here's the **official solution** in case you want to compare notes:
 
-───────────────────────────────────────────
  Hello, world!
-
-───────────────────────────────────────────
 
 ```plain Hello, world!```
 
-# You did it!
+## You did it!
     
 Congratulations! You wrote your first paragraph in Markdown! Quite simple, isn't it?
     
@@ -170,7 +166,7 @@ You have 11 challenges left.
   Please create a first-level heading with Markdown is awesome! and then  
   verify your solution.  
   
-  Here's the **official solution** in case you want to compare notes:
+ ## Here's the **official solution** in case you want to compare notes:
 
 ────────────────────────────────
 
@@ -183,7 +179,7 @@ You have 11 challenges left.
 
  ```
 
-# Success!
+## Success!
 
  There's nothing strange, right? Everything is obvious.
 
