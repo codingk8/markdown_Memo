@@ -36,7 +36,7 @@ how-to-markdown
    CHECK FOR UPDATE                                                           
    EXIT      
    
-## Hello World
+# Hello World
  Welcome to how-to-markdown!  
    
  ### What is Markdown?  
@@ -106,7 +106,7 @@ how-to-markdown
   If you already did this, run how-to-markdown verify to verify your  
   solution or how-to-markdown run to run your file in the browser.  
    
- ─────────────────────────────────────────────────────────────────────────────  
+ ──────────────────────────────────────────
    
    » To print these instructions again, run: how-to-markdown print               
    » To execute your program, run: how-to-markdown run file.md                   
