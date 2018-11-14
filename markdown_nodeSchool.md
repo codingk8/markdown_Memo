@@ -108,8 +108,90 @@ how-to-markdown
    
  ──────────────────────────────────────────
    
-   » To print these instructions again, run: how-to-markdown print               
-   » To execute your program, run: how-to-markdown run file.md                   
-   » To verify your program, run: how-to-markdown verify file.md                 
-   » For help run: how-to-markdown help                                          
+  Here's the **official solution** in case you want to compare notes:
+
+───────────────────────────────────────────
+ Hello, world!
+
+───────────────────────────────────────────
+ ```plain Hello, world!```
+
+
+    # You did it!
+    
+    Congratulations! You wrote your first paragraph in Markdown! Quite simple, isn't it?
+    
+    If you are already familiar with HTML, you may guess that your solution will be rendered in such markup:
+    
+    ```html```
+    <p>Hello, world!</p>
+
+ Paragraphs are separated by a blank line, so if you need to create two or
+ more paragraphs, you have to write something like this:
+
+    I am the first paragraph.
+    
+    I am the second one.
+
+ In the next exercise we will take a look at headings in Markdown.
+
+ You have 11 challenges left.
+
+  
+# HEADINGS (Exercise 2 of 12)  
    
+  It's important to categorize information. That's when headings help.  
+   
+  If you need to add a heading, just type a # sign at the beginning of the  
+  line. The number of # is a heading level. For example:  
+   
+     # Heading 1  
+     ## Heading 2  
+     ### Heading 3  
+     #### Heading 4  
+     ##### Heading 5  
+     ###### Heading 6  
+   
+  As in HTML, there are 6 levels of headings. These headings will be  
+  transformed into <h1>-<h6> tags accordingly.  
+   
+  There are aliases for first and second-level headings. You will get a  
+  first-level heading if you type three = signs on the following line. You  
+  can type three - on the following line to create a second-level heading.  
+  For example:  
+   
+     Heading 1  
+     ===  
+       
+     Heading 2  
+     ---  
+   
+ ## THE CHALLENGE  
+   
+  Please create a first-level heading with Markdown is awesome! and then  
+  verify your solution.  
+  
+  Here's the **official solution** in case you want to compare notes:
+
+────────────────────────────────
+
+# Markdown is awesome!
+
+────────────────────────────────
+ ```plain
+
+# Markdown is awesome!
+
+ ```
+
+# Success!
+
+ There's nothing strange, right? Everything is obvious.
+
+ In all of the next exercises you will have to add headings with the name
+ of the current exercise.
+
+ In the next exercise we will take a look at emphasis in Markdown.
+
+ You have 10 challenges left.
+
