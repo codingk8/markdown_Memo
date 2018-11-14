@@ -114,28 +114,27 @@ how-to-markdown
  Hello, world!
 
 ───────────────────────────────────────────
- ```plain Hello, world!```
 
+```plain Hello, world!```
 
-    # You did it!
+# You did it!
     
-    Congratulations! You wrote your first paragraph in Markdown! Quite simple, isn't it?
+Congratulations! You wrote your first paragraph in Markdown! Quite simple, isn't it?
     
-    If you are already familiar with HTML, you may guess that your solution will be rendered in such markup:
+If you are already familiar with HTML, you may guess that your solution will be rendered in such markup:
     
     ```html```
     <p>Hello, world!</p>
 
- Paragraphs are separated by a blank line, so if you need to create two or
- more paragraphs, you have to write something like this:
+Paragraphs are separated by a blank line, so if you need to create two or more paragraphs, you have to write something like this:
 
     I am the first paragraph.
     
     I am the second one.
 
- In the next exercise we will take a look at headings in Markdown.
+In the next exercise we will take a look at headings in Markdown.
 
- You have 11 challenges left.
+You have 11 challenges left.
 
   
 # HEADINGS (Exercise 2 of 12)  
@@ -153,7 +152,7 @@ how-to-markdown
      ###### Heading 6  
    
   As in HTML, there are 6 levels of headings. These headings will be  
-  transformed into <h1>-<h6> tags accordingly.  
+  transformed into \<h1>-<h6>\ tags accordingly.  
    
   There are aliases for first and second-level headings. You will get a  
   first-level heading if you type three = signs on the following line. You  
