@@ -39,4 +39,4 @@ Or [here](http://wildcodeschool.gitbooks.io/markdown/content/)
 
 ### Ok, just because :sparkles:
 
-![Let it roll](https://media.giphy.com/media/zwF9GvnNF7mG4/giphy.gif)
+<p align="center"><img src="https://media.giphy.com/media/zwF9GvnNF7mG4/giphy.gif" alt="Let it roll")</p>
