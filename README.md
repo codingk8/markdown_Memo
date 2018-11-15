@@ -21,7 +21,7 @@ Or [here](http://wildcodeschool.gitbooks.io/markdown/content/)
 ---
 
 ### A very good one in :gb: with exercices
-[Markdown tutorial](https://www.markdowntutorial.com/)
+[Markdown tutorial](https://www.markdowntutorial.com/)  
 [More ressources](https://www.markdowntutorial.com/conclusion/)
 
 ---
