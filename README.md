@@ -29,7 +29,7 @@ Or [here](http://wildcodeschool.gitbooks.io/markdown/content/)
 ### GitHub
 [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)  
 [Writing on GitHub](https://help.github.com/categories/writing-on-github/)  
-[Basic writing and formatting syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
+[Basic writing and formatting syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/) with some interesting details
 
 ---
 
