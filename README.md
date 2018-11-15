@@ -27,7 +27,8 @@ Or [here](http://wildcodeschool.gitbooks.io/markdown/content/)
 ---
 
 ### GitHub
-[Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+[Mastering Markdown](https://guides.github.com/features/mastering-markdown/)  
+[Writing on GitHub](https://help.github.com/categories/writing-on-github/)
 
 ---
 
