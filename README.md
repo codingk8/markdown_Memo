@@ -25,8 +25,8 @@ Or [here](http://wildcodeschool.gitbooks.io/markdown/content/)
 
 ---
 
-### vvv
-
+### GitHub
+[Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
 ---
 
