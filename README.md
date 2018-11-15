@@ -20,7 +20,7 @@ Or [here](http://wildcodeschool.gitbooks.io/markdown/content/)
 
 ---
 
-### A good one in :gb:
+### A good one in :gb: with exercices
 [Markdown tutorial](https://www.markdowntutorial.com/)
 
 ---
