@@ -5,6 +5,8 @@
 
 #### _Last update 20181115_
 
+---
+
 ### WCS
 [Quest](https://github.com/WildCodeSchool/markdown-fr)     
 Forked from [Markdown book](https://github.com/GitbookIO/markdown) in :gb:    
