@@ -17,4 +17,7 @@ Or [here](http://wildcodeschool.gitbooks.io/markdown/content/)
 
 
 
-Last update 20181115
+### And because Emojis are fun :sparkling_heart:
+[Emoji Markdown cheatsheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
+
+#### Last update 20181115
