@@ -32,5 +32,11 @@ Or [here](http://wildcodeschool.gitbooks.io/markdown/content/)
 
 ---
 
-### And because Emojis are fun in all laguages :sparkling_heart:
+### Because Emojis are fun in all laguages :sparkling_heart:
 [Emoji Markdown cheatsheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
+
+---
+
+### Ok, just because :sparkles:
+
+![Let it roll](https://media.giphy.com/media/zwF9GvnNF7mG4/giphy.gif)
