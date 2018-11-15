@@ -1,5 +1,5 @@
-<h1 align="cente;r">markdown_Memo</h1>
-<p align="center;">Markdown extensive cheatsheet :see_no_evil: :hear_no_evil:</p>
+<h1 text-align="center;">markdown_Memo</h1>
+<p text-align="center;">Markdown extensive cheatsheet :see_no_evil: :hear_no_evil:</p>
 
 ## Sources
 
