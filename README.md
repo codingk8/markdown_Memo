@@ -3,6 +3,8 @@
 
 ## Sources
 
+_#### Last update 20181115_
+
 ### WCS
 [Quest](https://github.com/WildCodeSchool/markdown-fr)     
 Forked from [Markdown book](https://github.com/GitbookIO/markdown) in :gb:    
@@ -30,5 +32,3 @@ Or [here](http://wildcodeschool.gitbooks.io/markdown/content/)
 [Emoji Markdown cheatsheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
 
 ---
-
-_#### Last update 20181115_
