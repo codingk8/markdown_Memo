@@ -12,11 +12,16 @@ Or [here](http://wildcodeschool.gitbooks.io/markdown/content/)
 ---
 
 ### Very thorough tutorial in :fr:
-[Here](https://blog.wax-o.com/2014/04/tutoriel-un-guide-pour-bien-commencer-avec-markdown/)
+[Pour bien commencer avec le markdown](https://blog.wax-o.com/2014/04/tutoriel-un-guide-pour-bien-commencer-avec-markdown/)
 
 ---
 
-### xxx
+### A good one in :gb:
+[Markdown tutorial](https://www.markdowntutorial.com/)
+
+---
+
+### vvv
 
 
 ---
