@@ -1,8 +1,7 @@
-<h1 align="center">markdown_Memo</h1>
+<h1 align="center">markdown_Memo - Sources</h1>
 <p align="center">Markdown extensive cheatsheet :see_no_evil: :hear_no_evil:</p>
-
-## Sources
-
+  
+  
 #### _Last update 20181115_
 
 ---
