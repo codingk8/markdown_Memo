@@ -32,7 +32,7 @@ Or [here](http://wildcodeschool.gitbooks.io/markdown/content/)
 
 ---
 
-### Because Emojis are fun in all laguages :sparkling_heart:
+### Because Emojis are fun in all laguages and also in MArkdown :sparkling_heart:
 [Emoji Markdown cheatsheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
 
 ---
