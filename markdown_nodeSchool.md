@@ -16,18 +16,18 @@ How To Markdown
 Markdown is awesome!
 
 ---
-   » HELLO WORLD                                                              
-   » HEADINGS                                                                 
-   » EMPHASIS                                                                 
-   » LISTS                                                                    
-   » LINKS                                                                    
-   » IMAGES                                                                   
-   » BLOCKQUOTES                                                              
-   » CODE                                                                     
-   » TABLES                                                                   
-   » HORIZONTAL RULES                                                         
-   » HTML                                                                     
-   » GFM                                                      
+   1. HELLO WORLD                                                              
+   2. HEADINGS                                                                 
+   3. EMPHASIS                                                                 
+   4. LISTS                                                                    
+   5. LINKS                                                                    
+   6. IMAGES                                                                   
+   7. BLOCKQUOTES                                                              
+   8. CODE                                                                     
+   9. TABLES                                                                   
+   10. HORIZONTAL RULES                                                         
+   11. HTML                                                                     
+   12. GFM                                                      
 
 ---
    HELP                                                                       
@@ -36,7 +36,7 @@ Markdown is awesome!
    CHECK FOR UPDATE                                                           
    EXIT      
 
-# Hello World
+# 1.Hello World
 Welcome to how-to-markdown!  
    
 ### What is Markdown?  
@@ -113,7 +113,7 @@ In the next exercise we will take a look at headings in Markdown.
 
 You have 11 challenges left.
 
-# HEADINGS (Exercise 2 of 12)  
+# 2.HEADINGS (Exercise 2 of 12)  
 
 It's important to categorize information. That's when headings help.  
 
@@ -165,7 +165,7 @@ In the next exercise we will take a look at emphasis in Markdown.
 
 You have 10 challenges left.
 
-# EMPHASIS (Exercise 3 of 12)  
+# 3.EMPHASIS (Exercise 3 of 12)  
 
 It's easy to mark text as italic, bold, combined and strikethrough. There  
 are a few ways to make emphasis in Markdown and each of those is readable.  
@@ -229,7 +229,7 @@ In the next exercise we will take a look at lists in Markdown.
 
 You have 9 challenges left.
 
-# LISTS (Exercise 4 of 12)  
+# 4.LISTS (Exercise 4 of 12)  
    
 Lists are important for structured information. There is nothing hard in  
 the creation of lists in Markdown. Just insert an asterisk (*) or a dash  
@@ -381,7 +381,7 @@ In the next exercise we will take a look at references in Markdown.
 
 You have 8 challenges left.
 
-# LINKS (Exercise 5 of 12)  
+# 5.LINKS (Exercise 5 of 12)  
    
 We often need to make a reference for something. There are two ways to  
 create links: **inline-style and reference-style**.  
@@ -486,7 +486,7 @@ In the next exercise we will take a look at images in Markdown.
 
 You have 7 challenges left.
 
-# IMAGES (Exercise 6 of 12)  
+# 6.IMAGES (Exercise 6 of 12)  
 
 The embedding of images is very similar to insertion of links. To embed an  
 image you have to use this syntax:  
@@ -535,7 +535,7 @@ In the next exercise we will take a look at blockquotes in Markdown.
 
 You have 6 challenges left.
 
-# BLOCKQUOTES (Exercise 7 of 12)  
+# 7.BLOCKQUOTES (Exercise 7 of 12)  
 
 Sometimes we need to quote someone's words. In that case, blockquotes are  
 exactly what we need.  
@@ -590,7 +590,7 @@ In the next exercise we will take a look at code in Markdown.
 
 You have 5 challenges left.
 
-# CODE (Exercise 8 of 12)  
+# 8.CODE (Exercise 8 of 12)  
 
 Code is a part of Markdown spec. There are two ways to add code in your  
 document: inline code and blocks of code.  
@@ -664,7 +664,7 @@ In the next exercise we will take a look at tables in Markdown.
 
 You have 4 challenges left.
 
-# TABLES (Exercise 9 of 12)  
+# 9.TABLES (Exercise 9 of 12)  
    
 Tables are not a part of Markdown spec, but a lot of parsers support them.  
 Especially **GFM which are used on GitHub**.  
@@ -754,7 +754,7 @@ In the next exercise we will take a look at horizontal rules in Markdown.
 
 You have 3 challenges left.
 
-# HORIZONTAL RULES (Exercise 10 of 12)  
+# 10.HORIZONTAL RULES (Exercise 10 of 12)  
    
 Sometimes we have to divide some information. In HTML we use the <hr> tag,  
 which means horizontal rule.  
@@ -822,7 +822,7 @@ In the next exercise we will take a look at inline HTML in Markdown.
 
 You have 2 challenges left.
 
-# HTML (Exercise 11 of 12)  
+# 11.HTML (Exercise 11 of 12)  
    
 If you want to style something more than is allowed in Markdown, you can  
 use raw HTML in your Markdown and it'll work pretty well.  
@@ -873,7 +873,7 @@ In the next exercise we will take a look at GFM in Markdown.
 
 You have one challenge left.
 
-# GFM (Exercise 12 of 12)  
+# 12.GFM (Exercise 12 of 12)  
 
 If you are a developer, then you have heard about GitHub. GitHub is an  
 important part of the community. Why are we talking about it? That's  
@@ -983,3 +983,5 @@ Thank you for using this workshopper. Check out other workshoppers on
 <http://nodeschool.io>.
 
 You've finished all the challenges! Hooray!
+
+<p align="center"><img src="https://media.giphy.com/media/SpuM90tcpfhN6/giphy.gif" alt="Let it roll")</p>
