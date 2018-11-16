@@ -12,9 +12,6 @@ CLI: how-to-markdown
 
 # What's inside
 
-How To Markdown                                                            
-Markdown is awesome!
-
 ---
    1. HELLO WORLD                                                              
    2. HEADINGS                                                                 
@@ -34,8 +31,9 @@ Markdown is awesome!
    CHOOSE LANGUAGE                                                            
    CREDITS                                                                    
    CHECK FOR UPDATE                                                           
-   EXIT      
-
+   EXIT  
+   
+---
 # 1.Hello World
 Welcome to how-to-markdown!  
    
@@ -45,10 +43,9 @@ First things first, let's consider what Markdown actually is.
 
 **Markdown - is a lightweight, easy-to-read, easy-to-write plain text format for styling all forms of writing around the Internet. Markdown helps to control the display of the document: formatting words as bold or italic, adding images, creating lists and so on.**
 
-Markdown was made by [John Gruber](http://daringfireball.net/) in 2004, with significant collaboration from [Aaron  
-Swartz](http://www.aaronsw.com/).  
+Markdown was made by [John Gruber](http://daringfireball.net/) in 2004, with significant collaboration from [Aaron Swartz](http://www.aaronsw.com/).  
 
-Markdown can be written in a basic text editor. It's an easy way to write text that easily translates into HTML. When you write in Markdown, you have to save the document with the .md or .markdown extensions.  
+Markdown can be written in a basic text editor. It's an easy way to write text that easily translates into HTML. **When you write in Markdown, you have to save the document with the .md or .markdown extensions**.  
 
 We can use Markdown almost everywhere:  
 
@@ -89,37 +86,35 @@ If you already did this, run how-to-markdown verify to verify your solution or h
 
 ## Here's the **official solution** in case you want to compare notes:
 
-The result:
+_The result:_
 
 Hello, world!
 
-The Markdown:
+_The Markdown:_
 
-```plain
-Hello, world!
-```
+      Hello, world!
 
 ## You did it!
 
 Congratulations! You wrote your first paragraph in Markdown! Quite simple, isn't it?
 
-=> If you are already familiar with HTML, you may guess that your solution will be rendered in such markup:
+If you are already familiar with **HTML**, you may guess that your solution will be rendered in such markup:
 
       ```html
       <p>Hello, world!</p>
       ```
 
-=> Paragraphs are separated by a blank line, so if you need to create two or more paragraphs, you have to write something like this:
+**Paragraphs are separated by a blank line**, so if you need to create two or more paragraphs, you have to write something like this:
 
 I am the first paragraph.
+
 I am the second one.
 
 And get:
 
-      ```Plain
       I am the first paragraph.
 
-      I am the second one.```
+      I am the second one.
 
 In the next exercise we will take a look at headings in Markdown.
 
@@ -147,9 +142,9 @@ And it will look like:
 ##### Heading 5  
 ###### Heading 6
 
-As in HTML, there are 6 levels of headings. These headings will be transformed into \<h1>-\<h6> tags accordingly.  
+**As in HTML, there are 6 levels of headings**. These headings will be transformed into \<h1>-\<h6> tags accordingly.  
 
-There are aliases for first and second-level headings. You will get a first-level heading if you type three = signs on the following line. You can type three - on the following line to create a second-level heading.  
+There are **aliases for first and second-level headings**. You will get a first-level heading if you type three = signs on the following line. You can type three - on the following line to create a second-level heading.  
 For example:  
 
         Heading 1  
@@ -172,15 +167,13 @@ Please create a first-level heading with Markdown is awesome! and then verify yo
 
 ## Here's the **official solution** in case you want to compare notes:
 
-The result:
+_The result:_
 
 # Markdown is awesome!
 
-The Markdown:
+_The Markdown:_
 
-     ```plain
-     # Markdown is awesome!
-     ```
+      # Markdown is awesome!
 
 ## Success!
 
@@ -198,21 +191,21 @@ It's easy to mark text as italic, bold, combined and strikethrough. There are a 
 
 To get emphasis just wrap some text in single, double or triple asterisks (*) or underscores (_). Here are some examples:  
 
-        Italics with *asterisks* and _underscores_.  
+      Italics with *asterisks* and _underscores_.  
 
 Italics with *asterisks* and _underscores_.  
 
-        Bold with **asterisks** or __underscores__  
+     Bold with **asterisks** or __underscores__  
 
 Bold with **asterisks** or __underscores__  
 
-        Combined emphasis with **asterisks and _underscores_**.  
+     Combined emphasis with **asterisks and _underscores_**.  
 
 Combined emphasis with **asterisks and _underscores_**.  
 
-Sometimes you need to draw line through the text. To get strikethrough wrap the text in two tildes (~) like so:  
+Sometimes you need to **draw line through the text**. To get strikethrough wrap the text in two tildes (~) like so:  
 
-        ~~Scratch this line.~~  
+     ~~Scratch this line.~~  
 
 ~~Scratch this line.~~
 
@@ -220,36 +213,32 @@ Sometimes you need to draw line through the text. To get strikethrough wrap the 
 
 Create a new file and add a first-level heading at the top of your file. This heading should contain Emphasis as text.  
 
-Below the heading, add this text:  
-
-It's very easy to use italic, bold and combined emphasis in Markdown!  
+Below the heading, add this text: It's very easy to use italic, bold and combined emphasis in Markdown!  
 
 Please, mark italic, bold and combined using relevant styles. 
 
 ## Here's the **official solution** in case you want to compare notes:
 
-The result:
+_The result:_
 
 # Emphasis
 It's very easy to use _italic_, **bold** and **_combined emphasis-** in Markdown!
 
-The Markdown:
+_The Markdown:_
 
-         ```plain
-         # Emphasis
-         It's very easy to use _italic_, **bold** and **_combined emphasis_** in Markdown!
-         ```
+      # Emphasis
+      It's very easy to use _italic_, **bold** and **_combined emphasis_** in Markdown!
 
 ## Nice job!
 
 Now you know how you can easily mark important parts in Markdown.
 
-**=> We suggest to use different notations for italic and bold**, for example:
+**We suggest to use different notations for italic and bold**, for example:
 
 1. Single underscore for _italic_ and double asterisks for **bold**
 2. Single asterisk for *italic* and double underscores for __bold__
 
-This approach helps to recognize different styles faster. For combined you may mix styles such as _**combined**_ or *__combined__* as well.
+**This approach helps to recognize different styles faster**. For combined you may mix styles such as _**combined**_ or *__combined__* as well.
 
 In the next exercise we will take a look at lists in Markdown.
 
@@ -257,44 +246,42 @@ You have 9 challenges left.
 
 # 4.LISTS (Exercise 4 of 12)  
    
-Lists are important for structured information. There is nothing hard in the creation of lists in Markdown. Just insert an asterisk (*) or a dash (-) before each item for an unordered list or a number with a dot for an ordered one (e.g., 1., 2., 3.).  
+**Lists are important for structured information**. There is nothing hard in the creation of lists in Markdown. Just insert an asterisk (*) or a dash (-) before each item for an unordered list or a number with a dot for an ordered one (e.g., 1., 2., 3.).  
 
 ### Unordered lists  
 
 Here is an example of an unordered list:  
-      ```plain
-        * item1  
-        * item2  
-        * item3  
-       ```
+```plain
+* item1  
+* item2  
+* item3  
+```
    
 And it will be transformed to something like this:  
-   
-   » item1                                                                       
-   » item2                                                                       
-   » item3                                                                       
+* item1                                                                       
+* item2                                                                       
+* item3                                                                       
    
 Dashes work as well:  
-      ```plain
-        - first item with dash  
-        - second item with dash  
-      ```  
+```plain
+- first item with dash  
+- second item with dash  
+```  
    
 Goes to:  
-   
-   » first item with dash                                                        
-   » second item with dash                                                       
+- first item with dash                                                        
+- second item with dash                                                       
    
  ### Ordered lists  
    
 Here is an example of a simple ordered list:  
-   
-      1. item1  
-      2. item2  
-      3. item3  
+```plain
+1. item1  
+2. item2  
+3. item3
+```
    
 Which will be transformed into:  
-   
 1. item1  
 2. item2  
 3. item3  
@@ -303,15 +290,15 @@ As you may see, this notation is very intuitive and readable.
    
  ### Nested lists  
    
-There is nothing hard about making a nested list. Just add a tab, or  
-spaces for nested elements such as:  
-   
-      - element 1  
-       - element 1.1  
-       - element 1.2  
-      - element 2  
-       - element 2.1  
-      - element 3  
+There is nothing hard about making a nested list. Just add a tab, or spaces for nested elements such as:  
+```plain
+- element 1  
+   - element 1.1  
+   - element 1.2  
+- element 2  
+   - element 2.1  
+- element 3
+```
    
 For lists with * and ordered lists it works as well.  
    
@@ -319,9 +306,7 @@ For lists with * and ordered lists it works as well.
    
 In the new file add a first-level heading with Lists as content.  
 
-Try to write your own list. Please create a new file and create an  
-unordered list in it:  
-   
+Try to write your own list. Please create a new file and create an unordered list in it:  
    » One   » 1.1                                                                        
            » 1.2                                                                 
                                                                    
@@ -350,17 +335,22 @@ When you are done, please verify your solution.
 
 ## Here's the **official solution** in case you want to compare notes:
 
-# Lists
+_The result:_
 
-  » One   » 1.1                                                                      
-          » 1.2                                                               
-                                                                
-  » Two   » 2.1                                                                      
-          » 2.2                                                               
-                                                                
-  » Three                                                                     
-  » Four                                                                      
-  » Five                                                                      
+# Lists
+- One
+   - 1.1                                                                      
+   - 1.2                                                               
+
+-Two
+   - 2.1                                                                      
+   - 2.2                                                               
+
+- Three                                                                     
+- Four                                                                      
+- Five                                                                      
+
+_The Markdown:_
 
  ```plain
 # Lists
@@ -378,27 +368,30 @@ When you are done, please verify your solution.
 
 ## Great!
 
-There is one more thing. You may have any order of numbers in your ordered lists. For example this notation works well:
+There is one more thing. **You may have any order of numbers in your ordered lists**. For example this notation works well:
 
-    0. only zeros
-    0. only zeros
-    0. only zeros
-    
-    10. any order
-    5. any order
-    2. any order
-    7. any order
+```plain
+0. only zeros
+0. only zeros
+0. only zeros
 
-  1. only zeros
-  2. only zeros
-  3. only zeros
+10. any order
+5. any order
+2. any order
+7. any order
+```
+gives:
 
-  1. any order
-  2. any order
-  3. any order
-  4. any order
+1. only zeros
+2. only zeros
+3. only zeros
 
-Markdown parser is pretty clever in creating the correct order. This approach may be very useful for supporting big ordered lists.
+1. any order
+2. any order
+3. any order
+4. any order
+
+**Markdown parser is pretty clever in creating the correct order**. This approach may be very useful for supporting big ordered lists.
 
 In the next exercise we will take a look at references in Markdown.
 
@@ -406,9 +399,9 @@ You have 8 challenges left.
 
 # 5.LINKS (Exercise 5 of 12)  
    
-We often need to make a reference for something. There are two ways to create links: **inline-style and reference-style**.  
+We often need to make a reference for something. There are two ways to create links: **inline-style** and **reference-style**.
 
-By the way, the easiest way to create a link is to just paste the link into a Markdown file. URLs and URLs in angle brackets will automatically get turned into links:  
+By the way, the easiest way to create a link is to just paste the link into a Markdown file. **URLs and URLs in angle brackets will automatically get turned into links**:  
    
      http://www.example.com or <http://www.example.com>  
    
@@ -418,18 +411,18 @@ By the way, the easiest way to create a link is to just paste the link into a Ma
    
 Links in Markdown have this format:  
    
-     [text](href "alt")  
+      [text](href "alt")  
    
 Above, text is text that will be a link, href is your reference to the resource (similar to href attribute in HTML), alt is an alternative text for link (similar to alt attribute in HTML). Text in a link may have any formatting, which means you are able to use emphasis in your links, if needed.  
 
 Here are more real world examples:  
 
-     [Google](https://www.google.com)  
-     [Google Homepage](https://www.google.com "Google Homepage")  
+      [Google](https://www.google.com)  
+      [Google Homepage](https://www.google.com "Google Homepage")  
    
  ## Reference style  
    
-Sometimes you have to use the same link in different places, so it would be convenient to use one reference for all of these links. So you may do this like so:  
+Sometimes you have to **use the same link in different places**, so it would be **convenient to use one reference for all of these links**. So you may do this like so:  
    
      [NodeSchool Site][ref]  
      [GitHub][1]  
@@ -455,25 +448,32 @@ When you are done, please, verify your solution.
 
 ## My solution
 
-        # Links
+      # Links
 
-        [how-to-markdown] is a workshopper that teaches you how to write Markdown.
-        [how-to-markdown]: //git.io/how-to-markdown
+      [how-to-markdown] is a workshopper that teaches you how to write Markdown.
+      [how-to-markdown]: //git.io/how-to-markdown
         
 ## Here's the official solution in case you want to compare notes:
 
-        # Links
+_the result:_
+# Links
 
-        [how-to-markdown] is a workshopper that teaches you how to write Markdown.
+[how-to-markdown] is a workshopper that teaches you how to write Markdown.
+
+      <!--- [how-to-markdown]: //git.io/how-to-markdown --->
+
+
+_The Markdown:_
 
  ```plain
 # Links
- [how-to-markdown] is a workshopper that teaches you how to write Markdown.
+[how-to-markdown] is a workshopper that teaches you how to write Markdown.
+[how-to-markdown]: //git.io/how-to-markdown
  ```
 
 ## Amazing!
 
-References are very handy in cases when you have to write a big document, such as documentation for your project. If you have a lot of links and you want to easily manage them, you can create a section at the bottom of your file and leave all your references there. For example:
+**References are very handy in cases when you have to write a big document**, such as documentation for your project. If you have a lot of links and you want to easily manage them, you can create a section at the bottom of your file and leave all your references there. For example:
 
     A lot of text. Many [useful] and [important] information here.
     
@@ -483,7 +483,7 @@ References are very handy in cases when you have to write a big document, such a
 
 Above, <!-- My References --> is an HTML-comment that will be omit. You can skip this comment, but actually it helps to recognize a section with references. This approach helps you to keep track of all of your links.
 
-By the way, references also work for images as well!
+By the way, **references also work for images as well!**
 
 In the next exercise we will take a look at images in Markdown.
 
