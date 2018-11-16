@@ -87,12 +87,17 @@ Hello, world!
 
 If you already did this, run how-to-markdown verify to verify your solution or how-to-markdown run to run your file in the browser.  
 
-
 ## Here's the **official solution** in case you want to compare notes:
+
+The result:
 
 Hello, world!
 
-```plain Hello, world!```
+The Markdown:
+
+```plain
+Hello, world!
+```
 
 ## You did it!
 
