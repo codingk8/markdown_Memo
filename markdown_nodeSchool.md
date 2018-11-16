@@ -4,11 +4,11 @@
 
 # Launch
 
-npm install -g how-to-markdown
+CLI: npm install -g how-to-markdown
 
 # Play
 
-how-to-markdown
+CLI: how-to-markdown
 
 # What's inside
 
