@@ -103,16 +103,23 @@ Hello, world!
 
 Congratulations! You wrote your first paragraph in Markdown! Quite simple, isn't it?
 
-If you are already familiar with HTML, you may guess that your solution will be rendered in such markup:
+=> If you are already familiar with HTML, you may guess that your solution will be rendered in such markup:
 
-```html```
-<p>Hello, world!</p>
+      ```html
+      <p>Hello, world!</p>
+      ```
 
-Paragraphs are separated by a blank line, so if you need to create two or more paragraphs, you have to write something like this:
+=> Paragraphs are separated by a blank line, so if you need to create two or more paragraphs, you have to write something like this:
 
-        I am the first paragraph.
+I am the first paragraph.
+I am the second one.
 
-        I am the second one.
+And get:
+
+      ```Plain
+      I am the first paragraph.
+
+      I am the second one.```
 
 In the next exercise we will take a look at headings in Markdown.
 
@@ -122,22 +129,27 @@ You have 11 challenges left.
 
 It's important to categorize information. That's when headings help.  
 
-If you need to add a heading, just type a # sign at the beginning of the  
-line. The number of # is a heading level. For example:  
+If you need to add a heading, just type a # sign at the beginning of the line. The number of # is a heading level. For example:  
 
         # Heading 1  
         ## Heading 2  
         ### Heading 3  
         #### Heading 4  
         ##### Heading 5  
-        ###### Heading 6  
+        ###### Heading 6
+        
+And it will look like:
 
-As in HTML, there are 6 levels of headings. These headings will be  
-transformed into \<h1>-\<h6> tags accordingly.  
+# Heading 1  
+## Heading 2  
+### Heading 3  
+#### Heading 4  
+##### Heading 5  
+###### Heading 6
 
-There are aliases for first and second-level headings. You will get a  
-first-level heading if you type three = signs on the following line. You  
-can type three - on the following line to create a second-level heading.  
+As in HTML, there are 6 levels of headings. These headings will be transformed into \<h1>-\<h6> tags accordingly.  
+
+There are aliases for first and second-level headings. You will get a first-level heading if you type three = signs on the following line. You can type three - on the following line to create a second-level heading.  
 For example:  
 
         Heading 1  
@@ -146,25 +158,35 @@ For example:
         Heading 2  
         ---  
 
+gives you:
+
+Heading 1
+===
+
+Heading 2
+---
+
 ## THE CHALLENGE  
 
-Please create a first-level heading with Markdown is awesome! and then  
-verify your solution.  
+Please create a first-level heading with Markdown is awesome! and then verify your solution.  
 
 ## Here's the **official solution** in case you want to compare notes:
 
+The result:
+
 # Markdown is awesome!
 
-        ```plain
-        # Markdown is awesome!
-        ```
+The Markdown:
+
+     ```plain
+     # Markdown is awesome!
+     ```
 
 ## Success!
 
 There's nothing strange, right? Everything is obvious.
 
-In all of the next exercises you will have to add headings with the name
-of the current exercise.
+In all of the next exercises you will have to add headings with the name of the current exercise.
 
 In the next exercise we will take a look at emphasis in Markdown.
 
@@ -172,35 +194,31 @@ You have 10 challenges left.
 
 # 3.EMPHASIS (Exercise 3 of 12)  
 
-It's easy to mark text as italic, bold, combined and strikethrough. There  
-are a few ways to make emphasis in Markdown and each of those is readable.  
+It's easy to mark text as italic, bold, combined and strikethrough. There are a few ways to make emphasis in Markdown and each of those is readable.  
 
-To get emphasis just wrap some text in single, double or triple asterisks  
-(*) or underscores (_). Here are some examples:  
+To get emphasis just wrap some text in single, double or triple asterisks (*) or underscores (_). Here are some examples:  
 
         Italics with *asterisks* and _underscores_.  
 
-        |> Italics with asterisks and underscores.  
+Italics with *asterisks* and _underscores_.  
 
         Bold with **asterisks** or __underscores__  
 
-        |> Bold with asterisks or underscores  
+Bold with **asterisks** or __underscores__  
 
         Combined emphasis with **asterisks and _underscores_**.  
 
-        |> Combined emphasis with asterisks and underscores.  
+Combined emphasis with **asterisks and _underscores_**.  
 
-Sometimes you need to draw line through the text. To get strikethrough  
-wrap the text in two tildes (~) like so:  
+Sometimes you need to draw line through the text. To get strikethrough wrap the text in two tildes (~) like so:  
 
         ~~Scratch this line.~~  
 
-        |> Scratch this line.  
+~~Scratch this line.~~
 
 ## THE CHALLENGE  
 
-Create a new file and add a first-level heading at the top of your file.  
-This heading should contain Emphasis as text.  
+Create a new file and add a first-level heading at the top of your file. This heading should contain Emphasis as text.  
 
 Below the heading, add this text:  
 
@@ -210,25 +228,28 @@ Please, mark italic, bold and combined using relevant styles.
 
 ## Here's the **official solution** in case you want to compare notes:
 
-# Emphasis
-It's very easy to use italic, bold and combined emphasis in Markdown!
+The result:
 
-        ```plain
-        # Emphasis
-        It's very easy to use italic, bold and combined emphasis in Markdown!
-        ```
+# Emphasis
+It's very easy to use _italic_, **bold** and **_combined emphasis-** in Markdown!
+
+The Markdown:
+
+         ```plain
+         # Emphasis
+         It's very easy to use _italic_, **bold** and **_combined emphasis_** in Markdown!
+         ```
 
 ## Nice job!
 
 Now you know how you can easily mark important parts in Markdown.
 
-**We suggest to use different notations for italic and bold**, for example:
+**=> We suggest to use different notations for italic and bold**, for example:
 
 1. Single underscore for _italic_ and double asterisks for **bold**
 2. Single asterisk for *italic* and double underscores for __bold__
 
-This approach helps to recognize different styles faster. For combined you
-may mix styles such as _**combined**_ or *__combined__* as well.
+This approach helps to recognize different styles faster. For combined you may mix styles such as _**combined**_ or *__combined__* as well.
 
 In the next exercise we will take a look at lists in Markdown.
 
@@ -236,18 +257,16 @@ You have 9 challenges left.
 
 # 4.LISTS (Exercise 4 of 12)  
    
-Lists are important for structured information. There is nothing hard in  
-the creation of lists in Markdown. Just insert an asterisk (*) or a dash  
-(-) before each item for an unordered list or a number with a dot for an  
-ordered one (e.g., 1., 2., 3.).  
+Lists are important for structured information. There is nothing hard in the creation of lists in Markdown. Just insert an asterisk (*) or a dash (-) before each item for an unordered list or a number with a dot for an ordered one (e.g., 1., 2., 3.).  
 
 ### Unordered lists  
 
 Here is an example of an unordered list:  
-   
-     * item1  
-     * item2  
-     * item3  
+      ```plain
+        * item1  
+        * item2  
+        * item3  
+       ```
    
 And it will be transformed to something like this:  
    
@@ -256,9 +275,10 @@ And it will be transformed to something like this:
    » item3                                                                       
    
 Dashes work as well:  
-   
-     - first item with dash  
-     - second item with dash  
+      ```plain
+        - first item with dash  
+        - second item with dash  
+      ```  
    
 Goes to:  
    
@@ -269,15 +289,15 @@ Goes to:
    
 Here is an example of a simple ordered list:  
    
-     1. item1  
-     2. item2  
-     3. item3  
+      1. item1  
+      2. item2  
+      3. item3  
    
 Which will be transformed into:  
    
-   1. item1  
-   2. item2  
-   3. item3  
+1. item1  
+2. item2  
+3. item3  
    
 As you may see, this notation is very intuitive and readable.  
    
@@ -286,12 +306,12 @@ As you may see, this notation is very intuitive and readable.
 There is nothing hard about making a nested list. Just add a tab, or  
 spaces for nested elements such as:  
    
-     - element 1  
+      - element 1  
        - element 1.1  
        - element 1.2  
-     - element 2  
+      - element 2  
        - element 2.1  
-     - element 3  
+      - element 3  
    
 For lists with * and ordered lists it works as well.  
    
@@ -314,7 +334,7 @@ unordered list in it:
    
 When you are done, please verify your solution.  
    
-## Ma solution
+## My solution
 
         # Lists
 
@@ -358,8 +378,7 @@ When you are done, please verify your solution.
 
 ## Great!
 
-There is one more thing. You may have any order of numbers in your ordered
-lists. For example this notation works well:
+There is one more thing. You may have any order of numbers in your ordered lists. For example this notation works well:
 
     0. only zeros
     0. only zeros
@@ -379,8 +398,7 @@ lists. For example this notation works well:
   3. any order
   4. any order
 
-Markdown parser is pretty clever in creating the correct order. This
-approach may be very useful for supporting big ordered lists.
+Markdown parser is pretty clever in creating the correct order. This approach may be very useful for supporting big ordered lists.
 
 In the next exercise we will take a look at references in Markdown.
 
@@ -388,12 +406,9 @@ You have 8 challenges left.
 
 # 5.LINKS (Exercise 5 of 12)  
    
-We often need to make a reference for something. There are two ways to  
-create links: **inline-style and reference-style**.  
+We often need to make a reference for something. There are two ways to create links: **inline-style and reference-style**.  
 
-By the way, the easiest way to create a link is to just paste the link  
-into a Markdown file. URLs and URLs in angle brackets will automatically  
-get turned into links:  
+By the way, the easiest way to create a link is to just paste the link into a Markdown file. URLs and URLs in angle brackets will automatically get turned into links:  
    
      http://www.example.com or <http://www.example.com>  
    
@@ -405,11 +420,7 @@ Links in Markdown have this format:
    
      [text](href "alt")  
    
-Above, text is text that will be a link, href is your reference to the  
-resource (similar to href attribute in HTML), alt is an alternative text  
-for link (similar to alt attribute in HTML). Text in a link may have any  
-formatting, which means you are able to use emphasis in your links, if  
-needed.  
+Above, text is text that will be a link, href is your reference to the resource (similar to href attribute in HTML), alt is an alternative text for link (similar to alt attribute in HTML). Text in a link may have any formatting, which means you are able to use emphasis in your links, if needed.  
 
 Here are more real world examples:  
 
@@ -418,9 +429,7 @@ Here are more real world examples:
    
  ## Reference style  
    
-Sometimes you have to use the same link in different places, so it would  
-be convenient to use one reference for all of these links. So you may do  
-this like so:  
+Sometimes you have to use the same link in different places, so it would be convenient to use one reference for all of these links. So you may do this like so:  
    
      [NodeSchool Site][ref]  
      [GitHub][1]  
@@ -432,25 +441,19 @@ this like so:
      [1]: https://github.com/  
      [Remark parser]: http://remark.js.org/  
    
-As you may notice above, references are case-insensitive and you are free  
-to use numbers for creating references or use link text itself as its  
-reference.  
+As you may notice above, references are case-insensitive and you are free to use numbers for creating references or use link text itself as its reference.  
    
 ## THE CHALLENGE  
    
 At the top of the file, add a first-level heading with Links text.  
 
-Here you have some text:  
+Here you have some text: how-to-markdown is a workshopper that teaches you how to write Markdown.  
    
-     how-to-markdown is a workshopper that teaches you how to write Markdown.  
-   
-Please, copy this text to the new file and mark 'how-to-markdown' phrase  
-as reference-style link with reference to itself. Below in your file, add  
-a relevant reference which will reference to the //git.io/how-to-markdown.  
+Please, copy this text to the new file and mark 'how-to-markdown' phrase as reference-style link with reference to itself. Below in your file, add a relevant reference which will reference to the //git.io/how-to-markdown.  
 
 When you are done, please, verify your solution.  
 
-## Ma solution
+## My solution
 
         # Links
 
@@ -470,10 +473,7 @@ When you are done, please, verify your solution.
 
 ## Amazing!
 
-References are very handy in cases when you have to write a big document,
-such as documentation for your project. If you have a lot of links and you
-want to easily manage them, you can create a section at the bottom of your
-file and leave all your references there. For example:
+References are very handy in cases when you have to write a big document, such as documentation for your project. If you have a lot of links and you want to easily manage them, you can create a section at the bottom of your file and leave all your references there. For example:
 
     A lot of text. Many [useful] and [important] information here.
     
@@ -481,9 +481,7 @@ file and leave all your references there. For example:
     [useful]: http://useful.site
     [important]: https://important.site
 
-Above, <!-- My References --> is an HTML-comment that will be omit. You
-can skip this comment, but actually it helps to recognize a section with
-references. This approach helps you to keep track of all of your links.
+Above, <!-- My References --> is an HTML-comment that will be omit. You can skip this comment, but actually it helps to recognize a section with references. This approach helps you to keep track of all of your links.
 
 By the way, references also work for images as well!
 
@@ -493,15 +491,11 @@ You have 7 challenges left.
 
 # 6.IMAGES (Exercise 6 of 12)  
 
-The embedding of images is very similar to insertion of links. To embed an  
-image you have to use this syntax:  
+The embedding of images is very similar to insertion of links. To embed an image you have to use this syntax:  
    
      ![alt text](url)  
    
-As you may see, the only difference is that you have to add an exclamation  
-mark before squared brackets. alt text is an alternate text for an image  
-(similar to alt attribute in HTML). url is the URL of an image (similar to  
-src attribute in HTML).  
+As you may see, the only difference is that you have to add an exclamation mark before squared brackets. alt text is an alternate text for an image (similar to alt attribute in HTML). url is the URL of an image (similar to src attribute in HTML).  
 
 The reference style also works for images. You can do something like this:  
    
@@ -513,28 +507,25 @@ The reference style also works for images. You can do something like this:
 
 Add a first-level heading with Images text inside.  
 
-Let's say we have a Markdown logo on this URL:  
-http://bit.do/how-to-markdown  
+Let's say we have a Markdown logo on this URL: http://bit.do/how-to-markdown  
 
-Below, you should create a inline-style image with Markdown logo as  
-alternate text and http://bit.do/how-to-markdown as URL.  
+Below, you should create a inline-style image with Markdown logo as alternate text and http://bit.do/how-to-markdown as URL.  
 
 ## Here's the official solution in case you want to compare notes:
 
-        # Images
+The result:
 
-         ![Markdown logo](http://bit.do/how-to-markdown)
+# Images
+![Markdown logo](http://bit.do/how-to-markdown)
 
-        ```plain
-        # Images
-        ![Markdown logo](http://bit.do/how-to-markdown)
-        ```
+The Markdown: 
+
+      # Images
+      ![Markdown logo](http://bit.do/how-to-markdown)
 
 ## Cool!
 
-Now you learned how to add an image in Markdown. This is a common style
-for images, but some parsers provide additional tools for alignment,
-adding classes and other styles.
+Now you learned how to add an image in Markdown. This is a common style for images, but some parsers provide additional tools for alignment, adding classes and other styles.
 
 In the next exercise we will take a look at blockquotes in Markdown.
 
@@ -542,8 +533,7 @@ You have 6 challenges left.
 
 # 7.BLOCKQUOTES (Exercise 7 of 12)  
 
-Sometimes we need to quote someone's words. In that case, blockquotes are  
-exactly what we need.  
+Sometimes we need to quote someone's words. In that case, blockquotes are exactly what we need.  
 
 The syntax of blockquotes is simple:  
    
@@ -552,13 +542,11 @@ The syntax of blockquotes is simple:
    
 This will look like this:  
    
-   > This is my blockquote. This line is part of the same quote.  
+> This is my blockquote. This line is part of the same quote.  
    
-As you have seen, the line-break doesn't break a block of quote. To  
-separate a few quotes just add an empty line between them.  
+As you have seen, the line-break doesn't break a block of quote. To separate a few quotes just add an empty line between them.  
 
-You are able to put Markdown into a blockquote, therefore this will work  
-as well:  
+You are able to put Markdown into a blockquote, therefore this will work as well:  
    
      > **Markdown** is a _lightweight markup language_ with plain text formatting syntax designed so 
      > that it can be converted to **HTML** and many other formats.  
@@ -572,24 +560,23 @@ Add a quote from William Shakespeare's play Hamlet:
 
  > To be, or not to be, that is the question.  
 
-And add an original author to the quote right on the next line after this  
-quote. When you are done, verify your solution.  
+And add an original author to the quote right on the next line after this quote. When you are done, verify your solution.  
 
 ## Here's the official solution in case you want to compare notes:
 
-        # Blockquotes
-          > To be, or not to be, that is the question. William Shakespeare
+The result:
 
-        ```plain
-        # Blockquotes
-        > To be, or not to be, that is the question. William Shakespeare
-        ```
+# Blockquotes
+> To be, or not to be, that is the question. William Shakespeare
+
+The Markdown:
+
+      # Blockquotes
+      > To be, or not to be, that is the question. William Shakespeare
 
 ## Neat!
 
-You made a great quote from a great play! Blockquotes are useful and handy
-in email to emulate reply text. They are often used in conversation at
-GitHub for replies to specific comments.
+You made a great quote from a great play! Blockquotes are useful and handy in email to emulate reply text. They are often used in conversation at GitHub for replies to specific comments.
 
 In the next exercise we will take a look at code in Markdown.
 
@@ -597,8 +584,7 @@ You have 5 challenges left.
 
 # 8.CODE (Exercise 8 of 12)  
 
-Code is a part of Markdown spec. There are two ways to add code in your  
-document: inline code and blocks of code.  
+Code is a part of Markdown spec. There are two ways to add code in your document: inline code and blocks of code.  
 
 ### Inline code  
 
@@ -607,16 +593,13 @@ Here is an example:
    
      Inline code transforms into `<code>` html-tag.  
    
-  |> Inline code transforms into <code> html-tag.  
+Inline code transforms into `<code>` html-tag.  
    
- ### Blocks of code  
+### Blocks of code  
    
-Blocks of code are either fenced by lines with three back-ticks (   \`\`\`),  
-or are indented with four spaces.  
+Blocks of code are either fenced by lines with three back-ticks (   \`\`\`), or are indented with four spaces.  
 
-Syntax highlighting isn't part Markdown's spec. However, many renderers  
-support syntax highlighting. Which languages are supported and how those  
-language names should be written will vary from renderer to renderer.  
+Syntax highlighting isn't part Markdown's spec. However, many renderers support syntax highlighting. Which languages are supported and how those language names should be written will vary from renderer to renderer.  
    
      ```js  
      console.log('This is JavaScript syntax highlighting!');  
@@ -636,24 +619,26 @@ These two blocks will be rendered like so:
    
      Block of code with indentation.  
    
-We recommend to use the fenced code blocks instead of blocks with  
-indentation, because they support syntax highlighting.  
+We recommend to use the fenced code blocks instead of blocks with indentation, because they support syntax highlighting.  
    
 ## THE CHALLENGE  
 
 Add  Code as the first-level heading in your file.  
 
-Add this JavaScript code with relevant syntax highlighting:  
-
-  const add = (a, b) => a + b;  
+Add this JavaScript code with relevant syntax highlighting: const add = (a, b) => a + b;  
 
 Don't forget to verify your solution.  
    
 ##  Here's the official solution in case you want to compare notes:
 
-    # Code
-        const add = (a, b) => a + b;
+The result:
 
+# Code
+```js
+const add = (a, b) => a + b;
+```
+
+The Markdown:
 
     # Code
     ```js
@@ -662,8 +647,7 @@ Don't forget to verify your solution.
 
 ## Awesome!
 
-Now you can embed code snippets into Markdown documents. That is yet
-another thing that is used almost everywhere.
+Now you can embed code snippets into Markdown documents. That is yet another thing that is used almost everywhere.
 
 In the next exercise we will take a look at tables in Markdown.
 
@@ -671,11 +655,9 @@ You have 4 challenges left.
 
 # 9.TABLES (Exercise 9 of 12)  
    
-Tables are not a part of Markdown spec, but a lot of parsers support them.  
-Especially **GFM which are used on GitHub**.  
+Tables are not a part of Markdown spec, but a lot of parsers support them. Especially **GFM which are used on GitHub**.  
 
-The creation of tables in Markdown looks exactly like drawing using dashes  
-(-) and pipes (|). Also, you may use colons to align columns. For example:  
+The creation of tables in Markdown looks exactly like drawing using dashes (-) and pipes (|). Also, you may use colons to align columns. For example:  
 
      | Head         | of       | Table         |  
      | ------------ |:--------:| ------------ :|  
@@ -684,15 +666,14 @@ The creation of tables in Markdown looks exactly like drawing using dashes
    
 The table above will be rendered like this:  
    
- Head            of    Table  
- ------------ -------- -------------  
- left-aligned centered right-aligned  
- left-aligned centered right-aligned  
+ |Head        |    of    |Table          |
+ |------------|:--------:| -------------:| 
+ |left-aligned| centered |right-aligned  |
+ |left-aligned| centered |right-aligned  |
    
 There are a few important things here:  
 
- » There must be at least 3 dashes separating each header cell. Colons to                                                                            
-   align columns count as dashes.                                              
+ » There must be at least 3 dashes separating each header cell. Colons to align columns count as dashes.                   
  » The outer pipes (|) are optional.                                           
  » You can use inline Markdown in cells.                                       
 
@@ -704,9 +685,9 @@ That means you can do something like this:
    
 It doesn't looks so nice, but it works as expected:  
    
- Markdown Less    Pretty  
+ Markdown | Less  |  Pretty  
  -------- ------- ------  
- Still    renders nicely  
+ *Still*  |  `renders`| **nicely**  
    
 ## THE CHALLENGE  
 
@@ -722,7 +703,7 @@ Reproduce this table:
    
 The Year column should be centered.  
    
-## Ma solution ##
+## My solution
 
         # Tables
         |Year|World population|
@@ -751,9 +732,7 @@ Year World population
 
 ## Very well!
 
-You did a cool table of the World population. Now do you realize how
-awesome tables in Markdown are? They are easy and readable, even in plain
-files.
+You did a cool table of the World population. Now do you realize how awesome tables in Markdown are? They are easy and readable, even in plain files.
 
 In the next exercise we will take a look at horizontal rules in Markdown.
 
@@ -761,11 +740,9 @@ You have 3 challenges left.
 
 # 10.HORIZONTAL RULES (Exercise 10 of 12)  
    
-Sometimes we have to divide some information. In HTML we use the <hr> tag,  
-which means horizontal rule.  
+Sometimes we have to divide some information. In HTML we use the <hr> tag, which means horizontal rule.  
 
-There's nothing hard to make a horizontal rule in Markdown. Just type  
-three or more dashes (-), asterisks (*) or underscores (_):  
+There's nothing hard to make a horizontal rule in Markdown. Just type three or more dashes (-), asterisks (*) or underscores (_):  
 
      Dashes  
        
@@ -783,25 +760,23 @@ And it will turn into:
 
 Dashes  
 
-─────────────────────────────────────────────────────────────────────────────  
+---  
 Asterisks  
 
-─────────────────────────────────────────────────────────────────────────────  
+***
 Underscores  
 
-─────────────────────────────────────────────────────────────────────────────  
-As you may remember from the Headings exercise, three dashes on the next  
-line makes a second-level heading. To avoid this behavior, just add an  
-empty line between text and these dashes.  
+___ 
+
+As you may remember from the Headings exercise, three dashes on the next line makes a second-level heading. To avoid this behavior, just add an empty line between text and these dashes.  
 
 ## THE CHALLENGE  
 
-Please add a Horizontal rules heading and add a horizontal rule right  
-after this heading.  
+Please add a Horizontal rules heading and add a horizontal rule right after this heading.  
 
 That's it. Just verify your solution.  
 
-## Ma solution
+## My solution
 
         # Horizontal rules
         
@@ -809,19 +784,24 @@ That's it. Just verify your solution.
 
 ## Here's the official solution in case you want to compare notes:
 
+The result:
+
 # Horizontal rules
 
-─────────────────────────────────────────────────────────────────────────────
+___
+
+The Markdown:
+
 
 ```plain
 # Horizontal rules
-─────────────────────────────────────────────────────────────────────────────
+
+___
 ```
 
 ## Nice job!
 
-It was a pretty easy exercise, but sometimes horizontal rules are very
-handy, so you should know how to create them.
+It was a pretty easy exercise, but sometimes horizontal rules are very handy, so you should know how to create them.
 
 In the next exercise we will take a look at inline HTML in Markdown.
 
@@ -829,15 +809,13 @@ You have 2 challenges left.
 
 # 11.HTML (Exercise 11 of 12)  
    
-If you want to style something more than is allowed in Markdown, you can  
-use raw HTML in your Markdown and it'll work pretty well.  
+If you want to style something more than is allowed in Markdown, you can use raw HTML in your Markdown and it'll work pretty well.  
 
    <p align="center">Centered text works well!</p>  
 
 And you will get a centered paragraph.  
 
-Sometimes it's helpful, but be careful! Markdown inside HTML won't be  
-rendered! That means if you write something like this:  
+Sometimes it's helpful, but be careful! Markdown inside HTML won't be rendered! That means if you write something like this:  
    
      <span>Markdown **won't** work here!</span>  
    
@@ -847,32 +825,31 @@ It won't work.
 
 Add HTML as the first-level heading.  
 
-Below, use HTML for centering this text:  
-   
-     HTML in Markdown  
+Below, use HTML for centering this text: HTML in Markdown  
    
 Verify your solution.  
 
-## Ma solution
+## My solution
 
         # HTML
         <p align="center">HTML in Markdown</p>
         
 ## Here's the official solution in case you want to compare notes:
 
-        # HTML
-        <p align="center">HTML in Markdown</p>
 
-        ```plain
-        # HTML
-        <p align="center">HTML in Markdown</p>
-        ```
+The result:
+
+# HTML
+<p align="center">HTML in Markdown</p>
+
+The Markdown:
+
+      # HTML
+      <p align="center">HTML in Markdown</p>
 
 ## Works!
 
-You can use HTML for creating anything you want: definition lists,
-embedding posts from social networks, embedding videos from YouTube, etc.
-Just type HTML tags right in your Markdown document and see how it works.
+You can use HTML for creating anything you want: definition lists, embedding posts from social networks, embedding videos from YouTube, etc... Just type HTML tags right in your Markdown document and see how it works.
 
 In the next exercise we will take a look at GFM in Markdown.
 
@@ -880,55 +857,43 @@ You have one challenge left.
 
 # 12.GFM (Exercise 12 of 12)  
 
-If you are a developer, then you have heard about GitHub. GitHub is an  
-important part of the community. Why are we talking about it? That's  
-because GitHub is a big customer of Markdown. Even more, GitHub uses its  
-own version of the Markdown syntax that provides an additional set of  
-useful features. This version of markdown is called GitHub Flavored  
-Markdown or simply GFM.  
+If you are a developer, then you have heard about GitHub. GitHub is an important part of the community. Why are we talking about it? That's because **GitHub is a big customer of Markdown**. Even more, **GitHub uses its own version of the Markdown syntax that provides an additional set of useful features**. This version of markdown is called **GitHub Flavored Markdown or simply GFM**.  
 
-From previous exercises you are already familiar with syntax highlighting  
-in blocks of code and tables. However, there are some other features which  
-may be helpful for you.  
+From previous exercises you are already familiar with syntax highlighting in blocks of code and tables. However, there are some other features which may be helpful for you.  
 
 ### Task lists  
 
-To create a task list you should create an ordered or unordered list. Then  
-you can use squared brackets that will be turned into checkboxes. An x  
-between them makes the item marked as completed. Example:  
+To create a task list you should create an ordered or unordered list. Then you can use squared brackets that will be turned into checkboxes. An x between them makes the item marked as completed. Example:  
    
-     - [x] [links](#), **formatting**, and <del>tags</del> supported  
-     - [x] list syntax required (any unordered or ordered list supported)  
-     - [x] this is a complete item  
-     - [ ] this is an incomplete item  
+      - [x] [links](#), **formatting**, and <del>tags</del> supported  
+      - [x] list syntax required (any unordered or ordered list supported)  
+      - [x] this is a complete item  
+      - [ ] this is an incomplete item  
    
-   » [x] [links](#), formatting, and <del>tags</del> supported                   
-   » [x] list syntax required (any unordered or ordered list supported)          
-   » [x] this is a complete item                                                 
-   » [ ] this is an incomplete item                                              
+gives:
+
+- [x] [links](#), **formatting**, and <del>tags</del> supported                   
+- [x] list syntax required (any unordered or ordered list supported)          
+- [x] this is a complete item                                                 
+- [ ] this is an incomplete item                                              
    
 ### SHA references  
 
-Any reference to a commit’s SHA-1 hash will be automatically converted  
-into a link to that commit on GitHub:  
+Any reference to a commit’s SHA-1 hash will be automatically converted into a link to that commit on GitHub:  
 
    4ad0c921206dec4d1518f4aeead932e7617f934f  
    denysdovhan/how-to-markdowkn@4ad0c921206dec4d1518f4aeead932e7617f934f  
 
 ### Issue and Pull request references  
 
-Any number that refers to an Issue or Pull Request will be automatically  
-converted into a link:  
+Any number that refers to an Issue or Pull Request will be automatically converted into a link:  
    
      #1  
      denysdovhan/how-to-markdowkn#1  
    
 ### Username @mentions  
 
-Typing an @ symbol, followed by a username, will notify that person to  
-come and view the comment. This is called a @mention, because you’re  
-mentioning the individual. You can also mention @teams within an  
-organization.  
+Typing an @ symbol, followed by a username, will notify that person to come and view the comment. This is called a @mention, because you’re mentioning the individual. You can also mention @teams within an organization.  
    
 ### Emoji  
 
@@ -936,15 +901,13 @@ It's a funny part, but it's still important. GFM also supports emoji!
 
 ✨ 🐫 💥  
 
-To see a list of every emoji that is supported, check out the [Emoji Cheat  
-Sheet](http://www.emoji-cheat-sheet.com/).  
+To see a list of every emoji that is supported, check out the [Emoji Cheat Sheet](http://www.emoji-cheat-sheet.com/).  
    
 ## THE CHALLENGE  
 
 Add a first-level heading that contains GFM.  
 
-Please create a to-do list with these tasks:  
-
+Please create a to-do list with these tasks: 
 » hey                                                                         
 » ho                                                                          
 » let's go                                                                    
@@ -953,7 +916,7 @@ Then mark item ho as completed.
 
 Verify your solution.  
 
-## Ma solution
+## My solution
         # GFM
         - [ ] hey
         - [x] ho
@@ -961,31 +924,29 @@ Verify your solution.
 
 ## Here's the official solution in case you want to compare notes:
 
-        # GFM
-          » [ ] hey                                                                   
-          » [x] ho                                                                    
-          » [ ] let's go                                                              
+The result:
 
-        ```plain
-        # GFM
-        » [ ] hey                                                                   
-        » [x] ho                                                                    
-        » [ ] let's go                                                              
-        ```
+# GFM
+- [ ] hey                                                                   
+- [x] ho                                                                    
+- [ ] let's go                                                              
+
+The Markdown:
+
+      # GFM
+      - [ ] hey                                                                   
+      - [x] ho                                                                    
+      - [ ] let's go                                                              
 
 ## Congratulations!
 
-You finished this workshopper! Now you are familiar with Markdown and know
-how to write and read Markdown documents.
+You finished this workshopper! Now you are familiar with Markdown and know how to write and read Markdown documents.
 
-What should you do next? Just write some Markdown. Rewrite the README-file
-of your project in Markdown, start to write posts in your blog in
-Markdown, whatever.
+What should you do next? Just write some Markdown. Rewrite the README-file of your project in Markdown, start to write posts in your blog in Markdown, whatever.
 
 Anyway, knowledge of Markdown is a very nice skill that will be useful.
 
-Thank you for using this workshopper. Check out other workshoppers on
-<http://nodeschool.io>.
+Thank you for using this workshopper. Check out other workshoppers on [Node School](http://nodeschool.io).
 
 You've finished all the challenges! Hooray!
 
