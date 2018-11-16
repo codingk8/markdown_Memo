@@ -12,7 +12,6 @@ CLI: how-to-markdown
 
 # What's inside
 
----
    1. HELLO WORLD                                                              
    2. HEADINGS                                                                 
    3. EMPHASIS                                                                 
