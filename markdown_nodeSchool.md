@@ -591,21 +591,20 @@ Start the new file with "Blockquotes" as heading.
 
 Add a quote from William Shakespeare's play Hamlet: "To be, or not to be, that is the question."
 
-And add an original author to the quote right on the next line after this quote. When you are done, verify your solution.  
+And add an original author to the quote right on the next line after this quote. When you are done, verify your solution. (But it will render on the same line !) 
 
 ## Here's the official solution in case you want to compare notes:
 
 _The result:_
 
 # Blockquotes
-> To be, or not to be, that is the question.  
+> To be, or not to be, that is the question.
 > William Shakespeare
 
 _The Markdown:_
 
       # Blockquotes
-      > To be, or not to be, that is the question.  
-      > William Shakespeare
+      > To be, or not to be, that is the question. William Shakespeare
 
 ## Neat!
 
@@ -644,7 +643,7 @@ Syntax highlighting isn't part Markdown's spec. However, **many renderers suppor
        
          Block of code with indentation.  
    
-These three blocks will be rendered like so:  
+These three (and not two :-) blocks will be rendered like so:  
 
 ```js
 console.log('This is JavaScript syntax highlighting!'); 
