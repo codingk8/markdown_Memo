@@ -308,6 +308,14 @@ There is nothing hard about making a nested list. Just add a tab, or spaces for 
    - element 2.1  
 - element 3
 ```
+
+As in:
+- element 1
+   - element 1.1
+   - element 1.2
+- element 2
+   - element 2.1
+- element 3
    
 For lists with * and ordered lists it works as well.  
    
@@ -316,12 +324,12 @@ For lists with * and ordered lists it works as well.
 In the new file add a first-level heading with Lists as content.  
 
 Try to write your own list. Please create a new file and create an unordered list in it:  
-   » One   » 1.1                                                                        
-           » 1.2                                                                 
-                                                                   
-   » Two   » 2.1                                                                        
-           » 2.2                                                                 
-                                                                   
+   » One   
+      » 1.1                                                                        
+      » 1.2                                                             
+   » Two   
+      » 2.1                                                                        
+      » 2.2            
    » Three                                                                       
    » Four                                                                        
    » Five                                                                        
