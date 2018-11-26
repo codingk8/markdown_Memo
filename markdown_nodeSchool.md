@@ -420,9 +420,9 @@ By the way, the easiest way to create a link is to just paste the link into a Ma
    
      http://www.example.com or <http://www.example.com>  
    
-  |> (http://www.example.com) or <http://www.example.com>  
+  gives: (http://www.example.com) or <http://www.example.com>  
    
-### Inline style  
+## Inline style  
    
 Links in Markdown have this format:  
    
@@ -453,9 +453,9 @@ As you may notice above, references are case-insensitive and you are free to use
    
 ## THE CHALLENGE  
    
-At the top of the file, add a first-level heading with Links text.  
+At the top of the file, add a first-level heading with "Links" text.  
 
-Here you have some text: how-to-markdown is a workshopper that teaches you how to write Markdown.  
+Here you have some text: "how-to-markdown is a workshopper that teaches you how to write Markdown".  
    
 Please, copy this text to the new file and mark 'how-to-markdown' phrase as reference-style link with reference to itself. Below in your file, add a relevant reference which will reference to the //git.io/how-to-markdown.  
 
