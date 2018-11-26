@@ -564,10 +564,11 @@ This will look like this:
 As you have seen, **the line-break doesn't break a block of quote. To separate a few quotes just add an empty line between them.**
 
 And this:
-  ```> This is my blockquote
+      ```
+      > This is my blockquote
 
-   > This line is part of the same quote
-   ```
+      > This line is part of the same quote
+      ```
 will look like this:
 > This is my blockquote.  
 
