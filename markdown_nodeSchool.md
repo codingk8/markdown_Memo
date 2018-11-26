@@ -321,18 +321,18 @@ For lists with * and ordered lists it works as well.
    
  ## THE CHALLENGE  
    
-In the new file add a first-level heading with Lists as content.  
+In the new file add a first-level heading with "Lists" as content.  
 
 Try to write your own list. Please create a new file and create an unordered list in it:  
-   » One   
-      » 1.1                                                                        
-      » 1.2                                                             
-   » Two   
-      » 2.1                                                                        
-      » 2.2            
-   » Three                                                                       
-   » Four                                                                        
-   » Five                                                                        
+   * One   
+      * 1.1                                                                        
+      *1.2                                                             
+   * Two   
+      * 2.1                                                                        
+      * 2.2            
+   * Three                                                                       
+   * Four                                                                        
+   * Five                                                                        
    
 When you are done, please verify your solution.  
    
@@ -358,11 +358,9 @@ _The result:_
 - One
    - 1.1                                                                      
    - 1.2                                                               
-
 -Two
    - 2.1                                                                      
    - 2.2                                                               
-
 - Three                                                                     
 - Four                                                                      
 - Five                                                                      
@@ -372,15 +370,15 @@ _The Markdown:_
  ```plain
 # Lists
 
-  » One   » 1.1                                                                      
-          » 1.2                                                               
-                                                                
-  » Two   » 2.1                                                                      
-          » 2.2                                                               
-                                                                
-  » Three                                                                     
-  » Four                                                                      
-  » Five                                                                      
+  * One
+   * 1.1
+   * 1.2
+  * Two    
+   * 2.1
+   * 2.2
+  * Three                                                                     
+  * Four                                                                      
+  * Five                                                                      
  ```
 
 ## Great!
