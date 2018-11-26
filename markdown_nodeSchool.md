@@ -422,7 +422,7 @@ By the way, the easiest way to create a link is to just paste the link into a Ma
    
   gives: (http://www.example.com) or <http://www.example.com>  
    
-## Inline style  
+### Inline style  
    
 Links in Markdown have this format:  
    
@@ -435,7 +435,7 @@ Here are more real world examples:
       [Google](https://www.google.com)  
       [Google Homepage](https://www.google.com "Google Homepage")  
    
- ## Reference style  
+ ### Reference style  
    
 Sometimes you have to **use the same link in different places**, so it would be **convenient to use one reference for all of these links**. So you may do this like so:  
    
@@ -565,11 +565,9 @@ As you have seen, **the line-break doesn't break a block of quote. To separate a
 
 And this:
 
-   ```
-   > This is my blockquote
+      > This is my blockquote
 
-   > This is an other quote
-   ```
+      > This is an other quote
    
 will look like this:
 > This is my blockquote.  
@@ -619,11 +617,11 @@ You have 5 challenges left.
 
 # 8.CODE (Exercise 8 of 12)  
 
-Code is a part of Markdown spec. There are two ways to add code in your document: inline code and blocks of code.  
+Code is a part of Markdown spec. There are **two ways to add code in your document: inline code and blocks of code.**  
 
 ### Inline code  
 
-To mark a part of text as code, just wrap it in back-ticks (  \` ).
+**To mark a part of text as code, just wrap it in back-ticks (  \` ).**
 Here is an example:  
    
      Inline code transforms into `<code>` html-tag.  
@@ -632,9 +630,9 @@ Inline code transforms into `<code>` html-tag.
    
 ### Blocks of code  
    
-Blocks of code are either fenced by lines with three back-ticks (   \`\`\`), or are indented with four spaces.  
+**Blocks of code** are either **fenced by lines with three back-ticks (   \`\`\`)**, or are **indented with four spaces**.  
 
-Syntax highlighting isn't part Markdown's spec. However, many renderers support syntax highlighting. Which languages are supported and how those language names should be written will vary from renderer to renderer.  
+Syntax highlighting isn't part Markdown's spec. However, **many renderers support syntax highlighting.** Which languages are supported and how those language names should be written will vary from renderer to renderer.  
    
      ```js  
      console.log('This is JavaScript syntax highlighting!');  
@@ -654,26 +652,26 @@ These two blocks will be rendered like so:
    
      Block of code with indentation.  
    
-We recommend to use the fenced code blocks instead of blocks with indentation, because they support syntax highlighting.  
+**We recommend to use the fenced code blocks** instead of blocks with indentation, **because they support syntax highlighting.**  
    
 ## THE CHALLENGE  
 
-Add  Code as the first-level heading in your file.  
+Add  "Code" as the first-level heading in your file.  
 
-Add this JavaScript code with relevant syntax highlighting: const add = (a, b) => a + b;  
+Add this JavaScript code with relevant syntax highlighting: "const add = (a, b) => a + b;"
 
 Don't forget to verify your solution.  
    
 ##  Here's the official solution in case you want to compare notes:
 
-The result:
+_The result:_
 
 # Code
 ```js
 const add = (a, b) => a + b;
 ```
 
-The Markdown:
+_The Markdown:_
 
     # Code
     ```js
@@ -682,7 +680,7 @@ The Markdown:
 
 ## Awesome!
 
-Now you can embed code snippets into Markdown documents. That is yet another thing that is used almost everywhere.
+**Now you can embed code snippets into Markdown documents.** That is yet another thing that is used almost everywhere.
 
 In the next exercise we will take a look at tables in Markdown.
 
