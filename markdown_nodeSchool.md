@@ -470,7 +470,7 @@ When you are done, please, verify your solution.
         
 ## Here's the official solution in case you want to compare notes:
 
-_the result:_
+_The result:_
 # Links
 
 [how-to-markdown] is a workshopper that teaches you how to write Markdown.
@@ -510,7 +510,9 @@ The embedding of images is very similar to insertion of links. To embed an image
    
      ![alt text](url)  
    
-As you may see, the only difference is that you have to add an exclamation mark before squared brackets. alt text is an alternate text for an image (similar to alt attribute in HTML). url is the URL of an image (similar to src attribute in HTML).  
+As you may see, the only difference is that you have to add an exclamation mark before squared brackets. 
+- "alt text" is an alternate text for an image (similar to alt attribute in HTML)
+- "url" is the URL of an image (similar to src attribute in HTML)
 
 The reference style also works for images. You can do something like this:  
    
@@ -520,27 +522,27 @@ The reference style also works for images. You can do something like this:
    
 ## THE CHALLENGE  
 
-Add a first-level heading with Images text inside.  
+Add a first-level heading with "Images" text inside.  
 
 Let's say we have a Markdown logo on this URL: http://bit.do/how-to-markdown  
 
-Below, you should create a inline-style image with Markdown logo as alternate text and http://bit.do/how-to-markdown as URL.  
+Below, you should create a inline-style image with "Markdown logo" as alternate text and http://bit.do/how-to-markdown as URL.  
 
 ## Here's the official solution in case you want to compare notes:
 
-The result:
+_The result:_
 
 # Images
 ![Markdown logo](http://bit.do/how-to-markdown)
 
-The Markdown: 
+_The Markdown:_
 
       # Images
       ![Markdown logo](http://bit.do/how-to-markdown)
 
 ## Cool!
 
-Now you learned how to add an image in Markdown. This is a common style for images, but some parsers provide additional tools for alignment, adding classes and other styles.
+Now you learned how to add an image in Markdown. This is a common style for images, but **some parsers provide additional tools for alignment, adding classes and other styles**.
 
 In the next exercise we will take a look at blockquotes in Markdown.
 
