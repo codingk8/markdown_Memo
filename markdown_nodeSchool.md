@@ -13,12 +13,12 @@ CLI: how-to-markdown
 # What's inside
 
    [1. HELLO WORLD](#1.hello-world)                                                
-   2. HEADINGS                                                                 
-   3. EMPHASIS                                                                 
-   4. LISTS                                                                    
-   5. LINKS                                                                    
-   6. IMAGES                                                                   
-   7. BLOCKQUOTES                                                              
+   [2. HEADINGS](#2.headings)                                                                 
+   [3. EMPHASIS](#3.emphasis)                                                                 
+   [4. LISTS](#4.lists)                                                                    
+   [5. LINKS](#5.links)                                                                    
+   [6. IMAGES](#6.images)                                                                   
+   [7. BLOCKQUOTES](#7.blockquotes)                                                              
    8. CODE                                                                     
    9. TABLES                                                                   
    10. HORIZONTAL RULES                                                         
