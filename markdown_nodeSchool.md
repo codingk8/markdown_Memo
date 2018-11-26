@@ -33,7 +33,7 @@ CLI: how-to-markdown
    EXIT  
    
 ---
-# 1.Hello World
+# 1.Hello World (Exercice 1 of 12)
 Welcome to how-to-markdown!  
    
 ### What is Markdown?  
