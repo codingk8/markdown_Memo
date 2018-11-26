@@ -645,12 +645,15 @@ Syntax highlighting isn't part Markdown's spec. However, **many renderers suppor
          Block of code with indentation.  
    
 These two blocks will be rendered like so:  
-   
-     console.log('This is JavaScript syntax highlighting!');  
-   
-     No language indicated, so no syntax highlighting.  
-   
-     Block of code with indentation.  
+
+```js
+console.log('This is JavaScript syntax highlighting!'); 
+```
+```
+No language indicated, so no syntax highlighting.  
+```
+
+    Block of code with indentation.  
    
 **We recommend to use the fenced code blocks** instead of blocks with indentation, **because they support syntax highlighting.**  
    
@@ -688,9 +691,9 @@ You have 4 challenges left.
 
 # 9.TABLES (Exercise 9 of 12)  
    
-Tables are not a part of Markdown spec, but a lot of parsers support them. Especially **GFM which are used on GitHub**.  
+Tables are **not a part of Markdown spec, but a lot of parsers support them.** Especially **GFM which are used on GitHub**.  
 
-The creation of tables in Markdown looks exactly like drawing using dashes (-) and pipes (|). Also, you may use colons to align columns. For example:  
+The creation of tables in Markdown looks exactly like **drawing using dashes (-) and pipes (|)**. Also, you may use colons to align columns. For example:  
 
      | Head         | of       | Table         |  
      | ------------ |:--------:| ------------ :|  
@@ -704,11 +707,11 @@ The table above will be rendered like this:
  |left-aligned| centered |right-aligned  |
  |left-aligned| centered |right-aligned  |
    
-There are a few important things here:  
+There are a few **important things** here:  
 
- » There must be at least 3 dashes separating each header cell. Colons to align columns count as dashes.                   
- » The outer pipes (|) are optional.                                           
- » You can use inline Markdown in cells.                                       
+ » There must be **at least 3 dashes separating each header cell**. Colons to align columns count as dashes.                   
+ » The **outer pipes (|) are optional.**                                           
+ » You can **use inline Markdown in cells.**                                       
 
 That means you can do something like this:  
    
@@ -748,11 +751,16 @@ The Year column should be centered.
 ## Here's the official solution in case you want to compare notes:
 
 # Tables
+
+_The result:_
+
 Year World population
 ---- ----------------
 1960 3 Billion
 1980 4 Billion
 2000 6 Billion
+
+_The Markdown:_
 
 ```plain
 # Tables
