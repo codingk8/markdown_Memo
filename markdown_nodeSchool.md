@@ -12,7 +12,7 @@ CLI: how-to-markdown
 
 # What's inside
 
-   1. [HELLO WORLD](1.Hello World)                                                           
+   1. [HELLO WORLD](#1.Hello World)                                                           
    2. HEADINGS                                                                 
    3. EMPHASIS                                                                 
    4. LISTS                                                                    
