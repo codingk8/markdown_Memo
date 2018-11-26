@@ -568,6 +568,11 @@ You are able to put Markdown into a blockquote, therefore this will work as well
      > **Markdown** is a _lightweight markup language_ with plain text formatting syntax designed so 
      > that it can be converted to **HTML** and many other formats.  
      > - from [Wikipedia](https://en.wikipedia.org/wiki/Markdown)  
+     
+This will look like this:
+> **Markdown** is a _lightweight markup language_ with plain text formatting syntax designed so 
+> that it can be converted to **HTML** and many other formats.  
+> - from [Wikipedia](https://en.wikipedia.org/wiki/Markdown)
    
 ## THE CHALLENGE  
 
