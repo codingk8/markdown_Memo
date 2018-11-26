@@ -561,7 +561,17 @@ This will look like this:
    
 > This is my blockquote. This line is part of the same quote.  
    
-As you have seen, the line-break doesn't break a block of quote. To separate a few quotes just add an empty line between them.  
+As you have seen, **the line-break doesn't break a block of quote. To separate a few quotes just add an empty line between them.**
+
+And this:
+  ```> This is my blockquote
+
+   > This line is part of the same quote
+   ```
+will look like this:
+> This is my blockquote.  
+
+> This line is part of the same quote.   
 
 You are able to put Markdown into a blockquote, therefore this will work as well:  
    
@@ -587,13 +597,15 @@ And add an original author to the quote right on the next line after this quote.
 _The result:_
 
 # Blockquotes
-> To be, or not to be, that is the question. 
+> To be, or not to be, that is the question.
+
 > William Shakespeare
 
 _The Markdown:_
 
       # Blockquotes
       > To be, or not to be, that is the question. 
+      
       > William Shakespeare
 
 ## Neat!
