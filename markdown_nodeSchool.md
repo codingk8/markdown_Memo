@@ -576,25 +576,25 @@ This will look like this:
    
 ## THE CHALLENGE  
 
-Start the new file with Blockquotes as heading.  
+Start the new file with "Blockquotes" as heading.  
 
-Add a quote from William Shakespeare's play Hamlet:  
-
- > To be, or not to be, that is the question.  
+Add a quote from William Shakespeare's play Hamlet: "To be, or not to be, that is the question."
 
 And add an original author to the quote right on the next line after this quote. When you are done, verify your solution.  
 
 ## Here's the official solution in case you want to compare notes:
 
-The result:
+_The result:_
 
 # Blockquotes
-> To be, or not to be, that is the question. William Shakespeare
+> To be, or not to be, that is the question. 
+> William Shakespeare
 
-The Markdown:
+_The Markdown:_
 
       # Blockquotes
-      > To be, or not to be, that is the question. William Shakespeare
+      > To be, or not to be, that is the question. 
+      > William Shakespeare
 
 ## Neat!
 
