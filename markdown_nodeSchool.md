@@ -10,7 +10,7 @@ CLI: npm install -g how-to-markdown
 
 CLI: how-to-markdown
 
-# What's inside
+# What's inside (mainly Node School module + some personnal comments and additions)
 
    1. HELLO WORLD                                                
    2. HEADINGS                                                                 
@@ -644,7 +644,7 @@ Syntax highlighting isn't part Markdown's spec. However, **many renderers suppor
        
          Block of code with indentation.  
    
-These two blocks will be rendered like so:  
+These three blocks will be rendered like so:  
 
 ```js
 console.log('This is JavaScript syntax highlighting!'); 
@@ -716,7 +716,7 @@ There are a few **important things** here:
 That means you can do something like this:  
    
      Markdown | Less | Pretty  
-     -----| ----- | ----- 
+     ----- | ----- | ----- 
      *Still* | `renders` | **nicely**  
    
 It doesn't looks so nice, but it works as expected:  
@@ -743,34 +743,35 @@ The Year column should be centered.
    
 ## My solution
 
-        # Tables
-        |Year|World population|
-        |:--:|---------|
-        |1960|3 Billion|
-        |1980|4 Billion|
-        |2000|6 Billion|
-
-## Here's the official solution in case you want to compare notes:
-
+```plain
 # Tables
+|Year|World population|
+|:--:|---------|
+|1960|3 Billion|
+|1980|4 Billion|
+|2000|6 Billion|
+```
+
+## Here's the official solution in case you want to compare notes: (beware: the official result changes wether you're right or wrong. You need | to avoid having a horizontal line)
 
 _The result:_
 
-Year | World population  
----- | ----------------
-1960 | 3 Billion
-1980 | 4 Billion
-2000 | 6 Billion
+#Tables
+| Year | World population |
+| :--: | ---------------- |
+| 1960 | 3 Billion        |
+| 1980 | 4 Billion        |
+| 2000 | 6 Billion        |
 
 _The Markdown:_
 
 ```plain
 # Tables
-Year | World population
----- | ----------------
-1960 | 3 Billion
-1980 | 4 Billion
-2000 | 6 Billion
+| Year | World population |
+| :--: | ---------------- |
+| 1960 | 3 Billion        |
+| 1980 | 4 Billion        |
+| 2000 | 6 Billion        |
 ```
 
 ## Very well!
