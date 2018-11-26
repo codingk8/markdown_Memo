@@ -91,7 +91,10 @@ Hello, world!
 
 _The Markdown:_
 
-      Hello, world!
+```plain
+Hello, world
+```
+
 
 ## You did it!
 
@@ -99,9 +102,9 @@ Congratulations! You wrote your first paragraph in Markdown! Quite simple, isn't
 
 If you are already familiar with **HTML**, you may guess that your solution will be rendered in such markup:
 
-      ```html
-      <p>Hello, world!</p>
-      ```
+```html
+<p>Hello, world!</p>
+```
 
 **Paragraphs are separated by a blank line**, so if you need to create two or more paragraphs, you have to write something like this:
 
@@ -111,9 +114,11 @@ I am the second one.
 
 And get:
 
-      I am the first paragraph.
+```plain
+I am the first paragraph.
 
-      I am the second one.
+I am the second one.
+```
 
 In the next exercise we will take a look at headings in Markdown.
 
@@ -125,12 +130,14 @@ It's important to categorize information. That's when headings help.
 
 If you need to add a heading, just type a # sign at the beginning of the line. The number of # is a heading level. For example:  
 
-        # Heading 1  
-        ## Heading 2  
-        ### Heading 3  
-        #### Heading 4  
-        ##### Heading 5  
-        ###### Heading 6
+```plain
+# Heading 1  
+## Heading 2  
+### Heading 3  
+#### Heading 4  
+##### Heading 5  
+###### Heading 6
+```
         
 And it will look like:
 
@@ -146,11 +153,13 @@ And it will look like:
 There are **aliases for first and second-level headings**. You will get a first-level heading if you type three = signs on the following line. You can type three - on the following line to create a second-level heading.  
 For example:  
 
-        Heading 1  
-        ===  
+```plain
+Heading 1  
+===  
 
-        Heading 2  
-        ---  
+Heading 2  
+---
+```
 
 gives you:
 
@@ -172,7 +181,9 @@ _The result:_
 
 _The Markdown:_
 
-      # Markdown is awesome!
+```plain
+# Markdown is awesome!
+```
 
 ## Success!
 
@@ -190,21 +201,29 @@ It's easy to mark text as italic, bold, combined and strikethrough. There are a 
 
 To get emphasis just wrap some text in single, double or triple asterisks (*) or underscores (_). Here are some examples:  
 
-      Italics with *asterisks* and _underscores_.  
+```plain
+Italics with *asterisks* and _underscores_.
+```
 
 will give: Italics with *asterisks* and _underscores_.  
 
-     Bold with **asterisks** or __underscores__  
+```plain
+Bold with **asterisks** or __underscores__
+```
 
 will give: Bold with **asterisks** or __underscores__  
 
-     Combined emphasis with **asterisks and _underscores_**.  
+```plain
+Combined emphasis with **asterisks and _underscores_**.
+```
 
 will give: Combined emphasis with **asterisks and _underscores_**.  
 
 Sometimes you need to **draw line through the text**. To get strikethrough wrap the text in two tildes (~) like so:  
 
-     ~~Scratch this line.~~  
+```plain
+~~Scratch this line.~~
+```
 
 will give: ~~Scratch this line.~~
 
@@ -225,8 +244,10 @@ It's very easy to use _italic_, **bold** and **_combined emphasis-** in Markdown
 
 _The Markdown:_
 
-      # Emphasis
-      It's very easy to use _italic_, **bold** and **_combined emphasis_** in Markdown!
+```plain
+# Emphasis
+It's very easy to use _italic_, **bold** and **_combined emphasis_** in Markdown!
+```
 
 ## Nice job!
 
@@ -235,19 +256,22 @@ Now you know how you can easily mark important parts in Markdown.
 **We suggest to use different notations for italic and bold**, for example:
 
 1. Single underscore for _italic_ and double asterisks for **bold** as in
-   ```plain
-   1. Single underscore for _italic_ and double asterisks for **bold**
-   ```
+
+```plain
+1. Single underscore for _italic_ and double asterisks for **bold**
+```
          
 2. Single asterisk for *italic* and double underscores for __bold__ as in
-   ```plain
-   2. Single asterisk for *italic* and double underscores for __bold__
-   ```
+
+```plain
+2. Single asterisk for *italic* and double underscores for __bold__
+```
 
 **This approach helps to recognize different styles faster**. For combined you may mix styles such as _**combined**_ or *__combined__* as well, as in
-   ```plain 
-   For combined you may mix styles such as _**combined**_ or *__combined__* as well
-   ```
+
+```plain 
+For combined you may mix styles such as _**combined**_ or *__combined__* as well
+```
 
 In the next exercise we will take a look at lists in Markdown.
 
@@ -260,6 +284,7 @@ You have 9 challenges left.
 ### Unordered lists  
 
 Here is an example of an unordered list:  
+
 ```plain
 * item1  
 * item2  
@@ -272,6 +297,7 @@ And it will be transformed to something like this:
 * item3                                                                       
    
 Dashes work as well:  
+
 ```plain
 - first item with dash  
 - second item with dash  
@@ -284,6 +310,7 @@ Goes to:
  ### Ordered lists  
    
 Here is an example of a simple ordered list:  
+
 ```plain
 1. item1  
 2. item2  
@@ -300,6 +327,7 @@ As you may see, this notation is very intuitive and readable.
  ### Nested lists  
    
 There is nothing hard about making a nested list. Just add a tab, or spaces for nested elements such as:  
+
 ```plain
 - element 1  
    - element 1.1  
@@ -338,17 +366,18 @@ When you are done, please verify your solution.
    
 ## My solution
 
-        # Lists
-
-        - One
-            - 1.1
-            - 1.2
-        - Two
-            - 2.1
-            - 2.2
-        - Three
-        - Four
-        - Five
+```plain
+# Lists
+- One
+   - 1.1
+   - 1.2
+- Two
+   - 2.1
+   - 2.2
+- Three
+- Four
+- Five
+```
 
 ## Here's the **official solution** in case you want to compare notes:
 
@@ -418,36 +447,46 @@ We often need to make a reference for something. There are two ways to create li
 
 By the way, the easiest way to create a link is to just paste the link into a Markdown file. **URLs and URLs in angle brackets will automatically get turned into links**:  
    
-     http://www.example.com or <http://www.example.com>  
+```plain
+http://www.example.com or <http://www.example.com>
+```
    
-  gives: (http://www.example.com) or <http://www.example.com>  
+gives: (http://www.example.com) or <http://www.example.com>  
    
 ### Inline style  
    
 Links in Markdown have this format:  
    
-      [text](href "alt")  
+```plain
+[text](href "alt")
+```
    
 Above, text is text that will be a link, href is your reference to the resource (similar to href attribute in HTML), alt is an alternative text for link (similar to alt attribute in HTML). Text in a link may have any formatting, which means you are able to use emphasis in your links, if needed.  
 
 Here are more real world examples:  
 
-      [Google](https://www.google.com)  
-      [Google Homepage](https://www.google.com "Google Homepage")  
+```plain
+[Google](https://www.google.com)  
+[Google Homepage](https://www.google.com "Google Homepage")
+```
    
  ### Reference style  
    
 Sometimes you have to **use the same link in different places**, so it would be **convenient to use one reference for all of these links**. So you may do this like so:  
    
-     [NodeSchool Site][ref]  
-     [GitHub][1]  
-     [Remark parser]  
+```plain
+[NodeSchool Site][ref]  
+[GitHub][1]  
+[Remark parser]
+```
        
  Some text to show that the reference links can follow later:  
        
-     [ref]: http://www.nodeschool.io  
-     [1]: https://github.com/  
-     [Remark parser]: http://remark.js.org/  
+```plain
+[ref]: http://www.nodeschool.io  
+[1]: https://github.com/  
+[Remark parser]: http://remark.js.org/
+```
    
 As you may notice above, references are case-insensitive and you are free to use numbers for creating references or use link text itself as its reference.  
    
@@ -463,18 +502,18 @@ When you are done, please, verify your solution.
 
 ## My solution
 
-      # Links
-
-      [how-to-markdown] is a workshopper that teaches you how to write Markdown.
-      [how-to-markdown]: //git.io/how-to-markdown
+```plain
+# Links
+[how-to-markdown] is a workshopper that teaches you how to write Markdown.
+[how-to-markdown]: //git.io/how-to-markdown
+```
         
 ## Here's the official solution in case you want to compare notes:
 
 _The result:_
+
 # Links
-
 [how-to-markdown] is a workshopper that teaches you how to write Markdown.
-
 [how-to-markdown]: //git.io/how-to-markdown
 
 
@@ -490,11 +529,13 @@ _The Markdown:_
 
 **References are very handy in cases when you have to write a big document**, such as documentation for your project. If you have a lot of links and you want to easily manage them, you can create a section at the bottom of your file and leave all your references there. For example:
 
-    A lot of text. Many [useful] and [important] information here.
-    
-    <!-- My References -->
-    [useful]: http://useful.site
-    [important]: https://important.site
+```plain
+A lot of text. Many [useful] and [important] information here.
+
+<!-- My References -->
+[useful]: http://useful.site
+[important]: https://important.site
+```
 
 Above, <!-- My References --> is an HTML-comment that will be omit. You can skip this comment, but actually it helps to recognize a section with references. This approach helps you to keep track of all of your links.
 
@@ -508,7 +549,9 @@ You have 7 challenges left.
 
 The embedding of images is very similar to insertion of links. To embed an image you have to use this syntax:  
    
-     ![alt text](url)  
+```plain
+![alt text](url)
+```
    
 As you may see, the only difference is that you have to add an exclamation mark before squared brackets. 
 - "alt text" is an alternate text for an image (similar to alt attribute in HTML)
@@ -516,9 +559,11 @@ As you may see, the only difference is that you have to add an exclamation mark 
 
 The reference style also works for images. You can do something like this:  
    
-     ![reference style][logo]  
-       
-     [logo]: ./logo.png  
+```plain
+![reference style][logo]  
+
+[logo]: ./logo.png
+```
    
 ## THE CHALLENGE  
 
@@ -537,8 +582,10 @@ _The result:_
 
 _The Markdown:_
 
-      # Images
-      ![Markdown logo](http://bit.do/how-to-markdown)
+```plain
+# Images
+![Markdown logo](http://bit.do/how-to-markdown)
+```
 
 ## Cool!
 
@@ -554,8 +601,10 @@ Sometimes we need to quote someone's words. In that case, blockquotes are exactl
 
 The syntax of blockquotes is simple:  
    
-     > This is my blockquote.  
-     > This line is part of the same quote.  
+```plain
+> This is my blockquote.  
+> This line is part of the same quote.
+```
    
 This will look like this:  
    
@@ -604,7 +653,8 @@ _The result:_
 _The Markdown:_
 
       # Blockquotes
-      > To be, or not to be, that is the question. William Shakespeare
+      > To be, or not to be, that is the question.
+      > William Shakespeare
 
 ## Neat!
 
