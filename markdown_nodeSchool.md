@@ -756,7 +756,7 @@ The Year column should be centered.
 
 _The result:_
 
-#Tables
+# Tables
 | Year | World population |
 | :--: | ---------------- |
 | 1960 | 3 Billion        |
