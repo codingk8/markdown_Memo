@@ -716,7 +716,7 @@ There are a few **important things** here:
 That means you can do something like this:  
    
      Markdown | Less | Pretty  
-     --- | --- | ---  
+     -----| ----- | ----- 
      *Still* | `renders` | **nicely**  
    
 It doesn't looks so nice, but it works as expected:  
@@ -877,20 +877,19 @@ Verify your solution.
         
 ## Here's the official solution in case you want to compare notes:
 
-
-The result:
+_The result:_
 
 # HTML
 <p align="center">HTML in Markdown</p>
 
-The Markdown:
+_The Markdown:_
 
       # HTML
       <p align="center">HTML in Markdown</p>
 
 ## Works!
 
-You can use HTML for creating anything you want: definition lists, embedding posts from social networks, embedding videos from YouTube, etc... Just type HTML tags right in your Markdown document and see how it works.
+**You can use HTML for creating anything you want:** definition lists, embedding posts from social networks, embedding videos from YouTube, etc... Just **type HTML tags right in your Markdown document and see how it works.**
 
 In the next exercise we will take a look at GFM in Markdown.
 
@@ -965,14 +964,14 @@ Verify your solution.
 
 ## Here's the official solution in case you want to compare notes:
 
-The result:
+_The result:_
 
 # GFM
 - [ ] hey                                                                   
 - [x] ho                                                                    
 - [ ] let's go                                                              
 
-The Markdown:
+_The Markdown:_
 
       # GFM
       - [ ] hey                                                                   
@@ -983,12 +982,14 @@ The Markdown:
 
 You finished this workshopper! Now you are familiar with Markdown and know how to write and read Markdown documents.
 
-What should you do next? Just write some Markdown. Rewrite the README-file of your project in Markdown, start to write posts in your blog in Markdown, whatever.
+What should you **do next? Just write some Markdown.** Rewrite the README-file of your project in Markdown, start to write posts in your blog in Markdown, whatever.
 
 Anyway, knowledge of Markdown is a very nice skill that will be useful.
 
 Thank you for using this workshopper. Check out other workshoppers on [Node School](http://nodeschool.io).
 
 You've finished all the challenges! Hooray!
+
+---
 
 <p align="center"><img src="https://media.giphy.com/media/SpuM90tcpfhN6/giphy.gif" alt="Let it roll")</p>
