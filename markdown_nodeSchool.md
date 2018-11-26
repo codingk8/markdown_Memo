@@ -326,7 +326,7 @@ In the new file add a first-level heading with "Lists" as content.
 Try to write your own list. Please create a new file and create an unordered list in it:  
    * One   
       * 1.1                                                                        
-      *1.2                                                             
+      * 1.2                                                             
    * Two   
       * 2.1                                                                        
       * 2.2            
@@ -358,7 +358,7 @@ _The result:_
 - One
    - 1.1                                                                      
    - 1.2                                                               
--Two
+- Two
    - 2.1                                                                      
    - 2.2                                                               
 - Three                                                                     
