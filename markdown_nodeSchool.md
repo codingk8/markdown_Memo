@@ -79,7 +79,7 @@ It's easy to use this workshopper. In most cases, it's enough to use these three
 
 You first challenge is pretty simple. Just create a new file (for example using touch) and add a single line:  
 
-Hello, world!  
+"Hello, world!"
 
 If you already did this, run how-to-markdown verify to verify your solution or how-to-markdown run to run your file in the browser.  
 
@@ -162,7 +162,7 @@ Heading 2
 
 ## THE CHALLENGE  
 
-Please create a first-level heading with Markdown is awesome! and then verify your solution.  
+Please create a first-level heading with "Markdown is awesome!" and then verify your solution.  
 
 ## Here's the **official solution** in case you want to compare notes:
 
@@ -192,27 +192,27 @@ To get emphasis just wrap some text in single, double or triple asterisks (*) or
 
       Italics with *asterisks* and _underscores_.  
 
-Italics with *asterisks* and _underscores_.  
+will give: Italics with *asterisks* and _underscores_.  
 
      Bold with **asterisks** or __underscores__  
 
-Bold with **asterisks** or __underscores__  
+will give: Bold with **asterisks** or __underscores__  
 
      Combined emphasis with **asterisks and _underscores_**.  
 
-Combined emphasis with **asterisks and _underscores_**.  
+will give: Combined emphasis with **asterisks and _underscores_**.  
 
 Sometimes you need to **draw line through the text**. To get strikethrough wrap the text in two tildes (~) like so:  
 
      ~~Scratch this line.~~  
 
-~~Scratch this line.~~
+will give: ~~Scratch this line.~~
 
 ## THE CHALLENGE  
 
-Create a new file and add a first-level heading at the top of your file. This heading should contain Emphasis as text.  
+Create a new file and add a first-level heading at the top of your file. This heading should contain "Emphasis" as text.  
 
-Below the heading, add this text: It's very easy to use italic, bold and combined emphasis in Markdown!  
+Below the heading, add this text: "It's very easy to use italic, bold and combined emphasis in Markdown!"  
 
 Please, mark italic, bold and combined using relevant styles. 
 
@@ -234,7 +234,9 @@ Now you know how you can easily mark important parts in Markdown.
 
 **We suggest to use different notations for italic and bold**, for example:
 
-1. Single underscore for _italic_ and double asterisks for **bold**
+1. Single underscore for _italic_ and double asterisks for **bold** as in
+         1. Single underscore for _italic_ and double asterisks for **bold**
+         
 2. Single asterisk for *italic* and double underscores for __bold__
 
 **This approach helps to recognize different styles faster**. For combined you may mix styles such as _**combined**_ or *__combined__* as well.
