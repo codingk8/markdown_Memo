@@ -568,13 +568,13 @@ And this:
    ```
    > This is my blockquote
 
-   > This line is part of the same quote
+   > This is an other quote
    ```
    
 will look like this:
 > This is my blockquote.  
 
-> This line is part of the same quote.   
+> This is an other quote.   
 
 You are able to put Markdown into a blockquote, therefore this will work as well:  
    
@@ -600,15 +600,13 @@ And add an original author to the quote right on the next line after this quote.
 _The result:_
 
 # Blockquotes
-> To be, or not to be, that is the question.
-
+> To be, or not to be, that is the question.  
 > William Shakespeare
 
 _The Markdown:_
 
       # Blockquotes
-      > To be, or not to be, that is the question. 
-      
+      > To be, or not to be, that is the question.  
       > William Shakespeare
 
 ## Neat!
