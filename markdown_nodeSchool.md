@@ -722,7 +722,7 @@ That means you can do something like this:
 It doesn't looks so nice, but it works as expected:  
    
  Markdown | Less  |  Pretty  
- -- ------- ------  
+ ---- | ------- | ------  
  *Still*  |  `renders`| **nicely**  
    
 ## THE CHALLENGE  
@@ -730,12 +730,14 @@ It doesn't looks so nice, but it works as expected:
 Add a first-level heading that contains the name of this exercise.  
 
 Reproduce this table:  
-   
+ 
+ ```
  Year World population  
  ---- ----------------  
  1960 3 Billion  
  1980 4 Billion  
- 2000 6 Billion  
+ 2000 6 Billion
+ ```
    
 The Year column should be centered.  
    
@@ -754,21 +756,21 @@ The Year column should be centered.
 
 _The result:_
 
-Year World population  
----- ----------------
-1960 3 Billion
-1980 4 Billion
-2000 6 Billion
+Year | World population  
+---- | ----------------
+1960 | 3 Billion
+1980 | 4 Billion
+2000 | 6 Billion
 
 _The Markdown:_
 
 ```plain
 # Tables
-Year World population
----- ----------------
-1960 3 Billion
-1980 4 Billion
-2000 6 Billion
+Year | World population
+---- | ----------------
+1960 | 3 Billion
+1980 | 4 Billion
+2000 | 6 Billion
 ```
 
 ## Very well!
