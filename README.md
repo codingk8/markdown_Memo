@@ -6,7 +6,7 @@
 
 ---
 
-### WCS
+### WCS_Bootcamp
 [Quest](https://github.com/WildCodeSchool/markdown-fr)     
 Forked from [Markdown book](https://github.com/GitbookIO/markdown) in :gb:    
 With [Hosted Markedown book](https://www.gitbook.io/book/GitBookIO/markdown)    
