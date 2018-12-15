@@ -13,17 +13,17 @@ CLI: how-to-markdown
 # What's inside (mainly Node School module + some personnal comments and additions)
 
    1. [HELLO WORLD](#p1)                                       
-   2. HEADINGS                                                                 
-   3. EMPHASIS                                                                 
-   4. LISTS                                                                    
-   5. LINKS                                                                    
-   6. IMAGES                                                                   
-   7. BLOCKQUOTES                                                              
-   8. CODE                                                                     
-   9. TABLES                                                                   
-   10. HORIZONTAL RULES                                                         
-   11. HTML                                                                     
-   12. GFM                                                      
+   2. [HEADINGS](#p2)                                                                 
+   3. [EMPHASIS](#p3)                                                                 
+   4. [LISTS](#p4)                                                                    
+   5. [LINKS](#p5)                                                                    
+   6. [IMAGES](#p6)                                                                   
+   7. [BLOCKQUOTES](#p7)                                                              
+   8. [CODE](#p8)                                                                     
+   9. [TABLES](#p9)                                                                   
+   10. [HORIZONTAL RULES](#p10)                                                         
+   11. [HTML](#p11)                                                                     
+   12. [GFM](#p12)                                                      
 
 ---
    HELP                                                                       
@@ -124,7 +124,7 @@ In the next exercise we will take a look at headings in Markdown.
 
 You have 11 challenges left.
 
-# 2.HEADINGS (Exercise 2 of 12)  
+# <a name="p2"></a>2.HEADINGS (Exercise 2 of 12)  
 
 It's important to categorize information. That's when headings help.  
 
@@ -195,7 +195,7 @@ In the next exercise we will take a look at emphasis in Markdown.
 
 You have 10 challenges left.
 
-# 3.EMPHASIS (Exercise 3 of 12)  
+# <a name="p3"></a>3.EMPHASIS (Exercise 3 of 12)  
 
 It's easy to mark text as italic, bold, combined and strikethrough. There are a few ways to make emphasis in Markdown and each of those is readable.  
 
@@ -277,7 +277,7 @@ In the next exercise we will take a look at lists in Markdown.
 
 You have 9 challenges left.
 
-# 4.LISTS (Exercise 4 of 12)  
+# <a name="p4"></a>4.LISTS (Exercise 4 of 12)  
    
 **Lists are important for structured information**. There is nothing hard in the creation of lists in Markdown. Just insert an asterisk (*) or a dash (-) before each item for an unordered list or a number with a dot for an ordered one (e.g., 1., 2., 3.).  
 
@@ -441,7 +441,7 @@ In the next exercise we will take a look at references in Markdown.
 
 You have 8 challenges left.
 
-# 5.LINKS (Exercise 5 of 12)  
+# <a name="p5"></a>5.LINKS (Exercise 5 of 12)  
    
 We often need to make a reference for something. There are two ways to create links: **inline-style** and **reference-style**.
 
@@ -545,7 +545,7 @@ In the next exercise we will take a look at images in Markdown.
 
 You have 7 challenges left.
 
-# 6.IMAGES (Exercise 6 of 12)  
+# <a name="p6"></a>6.IMAGES (Exercise 6 of 12)  
 
 The embedding of images is very similar to insertion of links. To embed an image you have to use this syntax:  
    
@@ -595,7 +595,7 @@ In the next exercise we will take a look at blockquotes in Markdown.
 
 You have 6 challenges left.
 
-# 7.BLOCKQUOTES (Exercise 7 of 12)  
+# <a name="p7"></a>7.BLOCKQUOTES (Exercise 7 of 12)  
 
 Sometimes we need to quote someone's words. In that case, blockquotes are exactly what we need.  
 
@@ -664,7 +664,7 @@ In the next exercise we will take a look at code in Markdown.
 
 You have 5 challenges left.
 
-# 8.CODE (Exercise 8 of 12)  
+# <a name="p8"></a>8.CODE (Exercise 8 of 12)  
 
 Code is a part of Markdown spec. There are **two ways to add code in your document: inline code and blocks of code.**  
 
@@ -738,7 +738,7 @@ In the next exercise we will take a look at tables in Markdown.
 
 You have 4 challenges left.
 
-# 9.TABLES (Exercise 9 of 12)  
+# <a name="p9"></a>9.TABLES (Exercise 9 of 12)  
    
 Tables are **not a part of Markdown spec, but a lot of parsers support them.** Especially **GFM which are used on GitHub**.  
 
@@ -831,7 +831,7 @@ In the next exercise we will take a look at horizontal rules in Markdown.
 
 You have 3 challenges left.
 
-# 10.HORIZONTAL RULES (Exercise 10 of 12)  
+# <a name="p10"></a>10.HORIZONTAL RULES (Exercise 10 of 12)  
    
 Sometimes we have to divide some information. In HTML we use the \<hr> tag, which means horizontal rule, and looks like <hr> 
 
@@ -900,7 +900,7 @@ In the next exercise we will take a look at inline HTML in Markdown.
 
 You have 2 challenges left.
 
-# 11.HTML (Exercise 11 of 12)  
+# <a name="p11"></a>11.HTML (Exercise 11 of 12)  
    
 If you want to style something more than is allowed in Markdown, you can use raw HTML in your Markdown and it'll work pretty well.  
 
@@ -947,7 +947,7 @@ In the next exercise we will take a look at GFM in Markdown.
 
 You have one challenge left.
 
-# 12.GFM (Exercise 12 of 12)  
+# <a name="p12"></a>12.GFM (Exercise 12 of 12)  
 
 If you are a developer, then you have heard about GitHub. GitHub is an important part of the community. Why are we talking about it? That's because **GitHub is a big customer of Markdown**. Even more, **GitHub uses its own version of the Markdown syntax that provides an additional set of useful features**. This version of markdown is called **GitHub Flavored Markdown or simply GFM**.  
 
