@@ -12,7 +12,7 @@ CLI: how-to-markdown
 
 # What's inside (mainly Node School module + some personnal comments and additions)
 
-   1. [HELLO WORLD](#markdown-header-1.hello-world-(exercice-1-of-12))                                       
+   1. [HELLO WORLD](#p1)                                       
    2. HEADINGS                                                                 
    3. EMPHASIS                                                                 
    4. LISTS                                                                    
@@ -33,7 +33,7 @@ CLI: how-to-markdown
    EXIT  
    
 ---
-# 1.Hello World (Exercice 1 of 12)
+# <a name="p1"></a>1.Hello World (Exercice 1 of 12)
 Welcome to how-to-markdown!  
    
 ### What is Markdown?  
