@@ -12,7 +12,7 @@ CLI: how-to-markdown
 
 # What's inside (mainly Node School module + some personnal comments and additions)
 
-   1. HELLO WORLD                                                
+   1. [HELLO WORLD](#1.Hello-World-(Exercice-1-of-12)                                         
    2. HEADINGS                                                                 
    3. EMPHASIS                                                                 
    4. LISTS                                                                    
