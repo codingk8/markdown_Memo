@@ -37,6 +37,6 @@ Or [here](http://wildcodeschool.gitbooks.io/markdown/content/)
 
 ---
 
-### Ok, just because :sparkles:
+<h3 align="center">Just because :sparkles:</h3>
 
 <p align="center"><img src="https://media.giphy.com/media/zwF9GvnNF7mG4/giphy.gif" alt="Let it roll")</p>
