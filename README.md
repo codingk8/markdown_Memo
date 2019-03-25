@@ -5,12 +5,9 @@
 #### _Last update 20181115_
 
 ---
-
-### WCS_Bootcamp
-[Quest](https://github.com/WildCodeSchool/markdown-fr)     
-Forked from [Markdown book](https://github.com/GitbookIO/markdown) in :gb:    
+ 
+[Markdown book](https://github.com/GitbookIO/markdown) in :gb:    
 With [Hosted Markedown book](https://www.gitbook.io/book/GitBookIO/markdown)    
-Or [here](http://wildcodeschool.gitbooks.io/markdown/content/)  
 
 ---
 
