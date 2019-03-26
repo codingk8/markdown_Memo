@@ -23,5 +23,5 @@ Example of ordered nested lists
   > - the author
 
 
-This is some inline `code``
+This is some inline `code`
 
