@@ -36,9 +36,9 @@ http://www.example.com or <http://www.example.com>
 
 ---
 
-0. <a name="t1">Test1</a>
-0. <a name="t2">Test2</a>
-0. <a name="t3">Test3</a>
+0. <h2><a name="t1">Test1</a></h2>
+0. <h2><a name="t2">Test2</a></h2>
+0. <h2><a name="t3">Test3</a></h2>
 
 
 
