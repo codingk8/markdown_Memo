@@ -25,3 +25,6 @@ Example of ordered nested lists
 
 This is some inline `code`
 
+```js  
+ console.log('This is JavaScript syntax highlighting!');  
+ ```  
