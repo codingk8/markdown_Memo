@@ -28,3 +28,8 @@ This is some inline `code`
 ```js  
  console.log('This is JavaScript syntax highlighting!');  
  ```  
+http://www.example.com or <http://www.example.com>
+
+
+
+
