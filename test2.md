@@ -21,3 +21,7 @@ Example of ordered nested lists
   
   > This is a quote
   > - the author
+
+
+This is some inline `code``
+
