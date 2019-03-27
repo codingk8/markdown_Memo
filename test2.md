@@ -10,6 +10,12 @@ Example of ordered nested lists
   
   Let's see
   
+  0. Part 1
+  0. Part 2
+    * item 1
+    * item 2
+  0. Part 3
+  
   Quotes
   
   > This is a quote
