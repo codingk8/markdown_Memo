@@ -50,7 +50,7 @@ http://www.example.com or <http://www.example.com>
 
 Pull request test
 
-This is the pull request: #35299
+#35299
 
 Let's see 
 
