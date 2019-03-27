@@ -2,7 +2,7 @@ Pull request @freecodecamp#35299 is my PR
 
 ![image](https://media.giphy.com/media/31UDILmnnQOjnKKoKB/giphy.gif)
 
-<p><u>Texte souligné</u></p>
+<p><ins>Texte souligné</ins></p>
 
 1. First item
 2. Second item
