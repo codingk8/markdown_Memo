@@ -4,8 +4,8 @@ Pull request @freecodecamp#35299 is my PR
 1. First item
 2. Second item
 3. Third item
-1. Indented item
-2. Indented item
+      1. Indented item
+      2. Indented item
 4. Fourth item
 
 
