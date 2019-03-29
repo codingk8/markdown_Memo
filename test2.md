@@ -1,6 +1,8 @@
 this | this | this
 --: | :-: | :--
 **beautiful** | _extraordinary_ | <ins>why not</ins>
+xxx | yyy | zzz
+aaa | b | ccc
 
 
 
