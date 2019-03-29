@@ -1,3 +1,10 @@
+this | this | this
+--: | :-: | :--
+**beautiful** | _extarordinary_ | <ins>why not</ins>
+
+
+
+
 Pull request @freecodecamp#35299 is my PR
 
 ![image](https://media.giphy.com/media/31UDILmnnQOjnKKoKB/giphy.gif)
