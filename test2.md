@@ -1,6 +1,6 @@
 this | this | this
 --: | :-: | :--
-**beautiful** | _extarordinary_ | <ins>why not</ins>
+**beautiful** | _extraordinary_ | <ins>why not</ins>
 
 
 
